@@ -42,3 +42,16 @@ body {
     width: 100%;
     z-index: 1;
 }
+
+#hero-outer {
+    width: 70%;
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+}
+
+#hero-image {
+    width: 70%;
+    height: 700px;
+    background: url(../images/gamerguy.jpg); fixed center center;
+}
