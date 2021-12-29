@@ -18,3 +18,23 @@ header {
     float: left;
     width: auto;
 }
+
+#navbar {
+    float: right;
+    letter-spacing: 2px;
+}
+
+#navbar li {
+    list-style: none;
+    float: lefT;
+    margin-right: 30px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #e6e6e6;
+}
+
+#logo, #navbar {
+    line-height: 75px;;
+}
