@@ -8,7 +8,10 @@ body {
     background-color: #f2f2f2;
     font-family: 'Times New Roman', Times, serif;
     color: #101010;
+    height: 2000px;
 }
+
+/* Logo and Navigation */
 
 #logo {
     float: left;
@@ -43,15 +46,32 @@ body {
     z-index: 1;
 }
 
-#hero-outer {
-    width: 70%;
-    height: 700px;
-    position: relative;
-    overflow: hidden;
+/* Hero Image and Big Texts */
+
+#headline {
+    background-color: skyblue;
 }
 
-#hero-image {
-    width: 70%;
-    height: 700px;
-    background: url(../images/gamerguy.jpg); fixed center center;
+.one-third-width-column {
+    width: 40%;
+    margin-top: 75px;
+    display: inline-block;
+}
+
+.two-thirds-width-column {
+    width: 60%;
+    margin-top: 75px;
+    display: inline-block;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.spacer {
+    clear: both;
 }
