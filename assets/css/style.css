@@ -5,18 +5,12 @@
 }
 
 body {
-    background-color: #f2f2f2;
     font-family: 'Times New Roman', Times, serif;
     color: #101010;
-    height: 2000px;
+    height: 1000px;
 }
 
 /* Logo and Navigation */
-
-#logo {
-    float: left;
-    width: auto;
-}
 
 #navbar {
     float: right;
@@ -25,7 +19,7 @@ body {
 
 #navbar li {
     list-style: none;
-    float: lefT;
+    float: left;
     margin-right: 30px;
 }
 
@@ -35,7 +29,7 @@ body {
 }
 
 #logo, #navbar {
-    line-height: 75px;;
+    line-height: 75px;
 }
 
 #fixed-top {
@@ -46,32 +40,19 @@ body {
     z-index: 1;
 }
 
-/* Hero Image and Big Texts */
+/* Hero image and headline */
 
-#headline {
-    background-color: skyblue;
-}
-
-.one-third-width-column {
-    width: 40%;
+#hero-outer {
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
     margin-top: 75px;
-    display: inline-block;
 }
 
-.two-thirds-width-column {
-    width: 60%;
-    margin-top: 75px;
-    display: inline-block;
+#hero-image {
+    height: 650px;
+    width: 100%;
+    background: url('../images/header.jpg') fixed center center;
 }
 
-.float-left {
-    float: left;
-}
-
-.float-right {
-    float: right;
-}
-
-.spacer {
-    clear: both;
-}
