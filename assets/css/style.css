@@ -158,7 +158,41 @@ body {
     padding: 50px 0;
 }
 
+/* Inside Gamehub section */
 
+#entertainment {
+    background-color: #e6eaea;
+}
+
+#entertainment > h2 {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 220%;
+}
+
+.responsive {
+    padding: 0 5px;
+    float: left;
+    width: 33.33%;
+}
+
+.gallery {
+    border: 1px solid #101010;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    text-align: center;
+    padding: 10px;
+}
 
 /* Testimony carousel section */
 
