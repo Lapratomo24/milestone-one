@@ -144,7 +144,21 @@ body {
 }
 
 /* Trust subsection and logos */
+#partners {
+    text-align: center;
+}
 
+.flex-container {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#flexbox {
+    background-color: #cc0000;
+    height: 550px;
+}
 
 #reviews {
     background-color: #FFF6F1;
