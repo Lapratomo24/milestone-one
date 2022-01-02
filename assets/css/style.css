@@ -100,7 +100,48 @@ body {
     height: 450px;
 }
 
+#invite-text {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 280%;
+}
 
+#text-left {
+    padding-top: 30px;
+    padding-right: 20px;
+    width: 45%;
+    float: left;
+}
+
+#text-right {
+    padding-top: 30px;
+    width: 55%;
+    float: right;
+    padding-left: 20px;
+}
+
+#text-header-left {
+    float: right;
+}
+
+#text-header-right {
+    float: left;
+}
+
+#text-header-left, #text-header-right {
+    width: 80%;
+    line-height: 20px;
+    clear: both;
+    padding-bottom: 40px;
+}
+
+#text-header-right p, #text-header-left p {
+    text-align: justify;
+}
+
+#text-header-right h3, #text-header-left h3 {
+    text-align: center;
+}
 
 #flexbox {
     background-color: #cc0000;
