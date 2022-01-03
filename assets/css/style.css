@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,9 +8,8 @@
 }
 
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto Slab', serif;
     color: #101010;
-    background-color: #e6eaea;
 }
 
 /* Logo and Navigation */
@@ -33,7 +35,7 @@ body {
 }
 
 #fixed-top {
-    background-color: #cc0000;
+    background-color: #990000;
     position: fixed;
     top: 0;
     width: 100%;
@@ -58,21 +60,22 @@ body {
 
 #headline {
     position: absolute;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 50px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Bangers', cursive;
+    font-size: 7vw;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
     text-transform: capitalize;
-    width: 800px;
+    text-shadow: 4px 4px 6px #000000;
+    width: 100%;
     height: 75px;
     text-align: center;
     color: #f2f2f2;
-    background-color: rgb(0, 0, 0, 0.6);
-    top: 15vw;
-    left: 25vw;
 }
 
-#book-button {
+#opening-times {
     background-color: #cc0000;
     border-radius: 10px;
     color: #f2f2f2;
@@ -85,11 +88,12 @@ body {
     transition-duration: 0.4s;
     cursor: pointer;
     position: absolute;
-    top: 28vw;
-    left: 45vw;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-#book-button:hover {
+#visit-button:hover {
     background-color: #f2f2f2;
     color: #cc0000;
 }
@@ -97,25 +101,24 @@ body {
 /* About section */
 
 #about {
-    background-color: #fff6f1;
-    height: auto;
+    background-color: rgba(126,127,142, 0.2);
 }
 
 #about > h1 {
     text-align: center;
-    padding: 40px 0;
+    padding: 60px 0 0 0;
     font-size: 280%;
 }
 
 #text-left {
-    padding-top: 30px;
+    padding-top: 50px;
     padding-right: 20px;
     width: 45%;
     float: left;
 }
 
 #text-right {
-    padding-top: 30px;
+    padding-top: 50px;
     padding-left: 20px;
     width: 55%;
     float: right;
@@ -159,10 +162,6 @@ body {
 
 /* Inside Gamehub section */
 
-#entertainment {
-    background-color: #e6eaea;
-}
-
 #entertainment > h2 {
     text-align: center;
     padding: 40px 0;
@@ -172,10 +171,16 @@ body {
 .responsive {
     padding: 0 5px 40px 5px;
     float: left;
-    width: 33.33%;
+    padding-left: 55px;
 }
 
 .gallery {
+    border: 1px solid #ccc;
+    width: 400px;
+    margin: 1px;
+}
+
+.gallery:hover {
     border: 1px solid #101010;
 }
 
@@ -202,7 +207,6 @@ body {
 /* Testimony carousel section */
 
 #testimony {
-    background-color: #cc0000;
     background: url(../images/background.jpg);
     height: 350px;
 }
@@ -211,22 +215,34 @@ body {
     text-align: center;
     padding: 60px 0;
     font-size: 220%;
+    color: #e6e6e6;
 }
 
 .carousel-item > h4 {
     text-align: center;
+    color: #e6e6e6;
 }
 
 .carousel-item p {
     text-align: center;
     padding: 0 150px;
+    color: #e6e6e6;
 }
 
 /* Footer section */
 
+footer {
+    background-color: #990000;
+}
+
+footer h5 {
+    font-size: medium;
+}
+
 #footer-left {
     float: left;
     margin-left: 2%;
+    color: #e6e6e6;
 }
 
 #footer-right {
@@ -234,8 +250,8 @@ body {
 }
 
 #footer-left, #footer-right {
-    padding-top: 40px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 #social-media li {
@@ -245,5 +261,5 @@ body {
 #social-media i {
     font-size: 180%;
     margin-right: 2%;
-    color: #cc0000;
+    color: #e6e6e6;
 }
