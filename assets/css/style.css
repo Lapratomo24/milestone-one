@@ -263,3 +263,12 @@ footer h5 {
     margin-right: 2%;
     color: #e6e6e6;
 }
+
+/* Contact page */
+
+.contact-section {
+    background: url(../images/contact.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
