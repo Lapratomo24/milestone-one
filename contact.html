@@ -13,7 +13,7 @@
         <title>Contact Us</title>
 </head>
 <body>
-    <header id="fixed-top">
+    <header class="fixed-navbar">
         <a href="index.html">
             <img src="assets/images/gamehub.png">
         </a>
@@ -22,7 +22,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#">Visit Us</a></li>
                 <li><a href="#">Gallery</a></li>
-                <li><a href="contact.html">Contact Us</li>
+                <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
@@ -41,11 +41,16 @@
             <fieldset>
                 <label for="feedback" class="block-label">Your message:</label>
                 <br>
-                <textarea class="fieldset" id="feedback" rows="4" cols="87" name="feedback"></textarea>
+                <textarea class="fieldset" id="feedback" rows="4" cols="87" name="feedback" required></textarea>
             </fieldset>
             
-            <input class="send-button" type="submit" value="Submit">
+            <input class="send-button" type="submit" value="Send">
         </form>
+    </section>
+    <section id="map-background">
+        <div id="googlemap">
+            <iframe id="map" src="https://bit.ly/2QVfkiy" width="100%" height="500"></iframe>
+        </div>
     </section>
     <!-- Footer with social media and copyright -->
     <footer>

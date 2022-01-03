@@ -34,7 +34,7 @@ body {
     line-height: 75px;
 }
 
-#fixed-top {
+.fixed-navbar {
     background-color: #990000;
     position: fixed;
     top: 0;
@@ -318,8 +318,25 @@ footer h5 {
 	margin-top: 20px;
     width: 100%;
     border: 2px solid #e6e6e6;
+    padding: 0.5rem;
 }
 
 .fieldset:hover {
 	border-color: #990000;
+}
+
+#map-background {
+    background-color: #101010;
+    height: 700px;
+}
+
+#googlemap {
+    height: 100%;
+    padding: 100px;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    border: none;
 }
