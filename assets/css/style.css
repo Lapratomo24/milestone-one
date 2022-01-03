@@ -116,9 +116,9 @@ body {
 
 #text-right {
     padding-top: 30px;
+    padding-left: 20px;
     width: 55%;
     float: right;
-    padding-left: 20px;
 }
 
 #text-header-left {
@@ -132,7 +132,6 @@ body {
 #text-header-left, #text-header-right {
     width: 80%;
     line-height: 20px;
-    clear: both;
     padding-bottom: 60px;
 }
 
@@ -171,7 +170,7 @@ body {
 }
 
 .responsive {
-    padding: 0 5px;
+    padding: 0 5px 40px 5px;
     float: left;
     width: 33.33%;
 }
@@ -194,9 +193,57 @@ body {
     padding: 10px;
 }
 
+.clearspace::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* Testimony carousel section */
 
 #testimony {
-    background-color: #fff6f1;
-    height: 650px;
+    background-color: #cc0000;
+    background: url(../images/background.jpg);
+    height: 350px;
+}
+
+#testimony > h2 {
+    text-align: center;
+    padding: 60px 0;
+    font-size: 220%;
+}
+
+.carousel-item > h4 {
+    text-align: center;
+}
+
+.carousel-item p {
+    text-align: center;
+    padding: 0 150px;
+}
+
+/* Footer section */
+
+#footer-left {
+    float: left;
+    margin-left: 2%;
+}
+
+#footer-right {
+    text-align: right;
+}
+
+#footer-left, #footer-right {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#social-media li {
+    display: inline;
+}
+
+#social-media i {
+    font-size: 180%;
+    margin-right: 2%;
+    color: #cc0000;
 }
