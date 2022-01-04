@@ -104,10 +104,10 @@ body {
     background-color: rgba(126,127,142, 0.2);
 }
 
-#about > h1 {
+#about > h3 {
     text-align: center;
     padding: 60px 0 0 0;
-    font-size: 280%;
+    font-size: 200%;
 }
 
 #text-left {
@@ -150,6 +150,7 @@ body {
 
 #partners {
     text-align: center;
+    font-size: 200%;
 }
 
 .flex-container {
@@ -162,10 +163,10 @@ body {
 
 /* Inside Gamehub section */
 
-#entertainment > h2 {
+#entertainment > h3 {
     text-align: center;
     padding: 40px 0;
-    font-size: 220%;
+    font-size: 200%;
 }
 
 .responsive {
@@ -211,10 +212,10 @@ body {
     height: 350px;
 }
 
-#testimony > h2 {
+#testimony > h3 {
     text-align: center;
     padding: 60px 0;
-    font-size: 220%;
+    font-size: 200%;
     color: #e6e6e6;
 }
 
@@ -312,6 +313,7 @@ footer h5 {
     margin-top: 20px;
     padding: 15px 32px 15px 32px;
     text-align: center;
+    width: 100%;
 }
 
 .fieldset {
@@ -332,7 +334,7 @@ footer h5 {
 
 #googlemap {
     height: 100%;
-    padding: 100px;
+    padding: 80px;
 }
 
 #map {
