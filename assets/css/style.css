@@ -22,7 +22,7 @@ body {
 #navbar li {
     list-style: none;
     float: left;
-    margin-right: 30px;
+    margin-right: 40px;
 }
 
 #navbar a {
@@ -355,4 +355,8 @@ footer h5 {
 
 .carousel-item {
     height: 730px;
+}
+
+.slideshow-navbar {
+    z-index: 10;
 }
