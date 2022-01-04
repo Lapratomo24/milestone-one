@@ -20,14 +20,73 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="visit.html">Visit Us</a></li>
-                    <li><a href="slideshow.html">Gallery</a></li>
+                    <li><a href="slideshow.html">Slideshow</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
                 </ul>
             </nav>
         </header>
 
+        <!-- Slideshow of images showing what lies inside GameHub -->
         <section>
+            <!-- Carousel -->
+            <div id="slideshow" class="carousel slide" data-bs-ride="carousel">
 
+                <!-- Indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#slideshow" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#slideshow" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#slideshow" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#slideshow" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#slideshow" data-bs-slide-to="4"></button>
+                </div>
+
+                <!-- Slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/images/rider.jpg" alt="Girl with vr goggles riding a static bike" class="d-block" style="width:100%">
+                        <div class="carousel-caption">
+                            <h3>Virtual Reality Floor</h3>
+                            <p>Have what it takes to ride a motorcycle in the 22nd century?</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/pcgamers.jpg" alt="Young men playing games on pc" class="d-block" style="width:100%">
+                        <div class="carousel-caption">
+                            <h3>High-End Gaming PCs</h3>
+                            <p>30 powerful hardwares built only for gaming!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/gamers.jpg" alt="A group of friends playing games" class="d-block" style="width:100%">
+                        <div class="carousel-caption">
+                            <h3>Couch-Gaming with Friends</h3>
+                            <p>Lots of spaces for you to play with friends!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/shooters.jpg" alt="Two men playing a shooter game with vr goggles" class="d-block" style="width:100%">
+                        <div class="carousel-caption">
+                            <h3>VR Shooter Floor</h3>
+                            <p>Yes, we have a second VR-oriented floor for a special hostage-rescue escape game!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/shops.jpg" alt="Hallway with shops and restrooms" class="d-block" style="width:100%">
+                        <div class="carousel-caption">
+                            <h3>Shops and Bars</h3>
+                            <p>If you ever feel like a break from gaming..</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#slideshow" data-bs-slide="prev"> 
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#slideshow" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
         </section>
 
         <!-- Font awesome script-->

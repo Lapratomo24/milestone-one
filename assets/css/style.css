@@ -55,7 +55,7 @@ body {
 #hero-image {
     height: 650px;
     width: 100%;
-    background: url('../images/header.jpg') fixed center center;
+    background: url('../images/hero-image.jpg') fixed center center;
 }
 
 #headline {
