@@ -342,3 +342,17 @@ footer h5 {
     height: 100%;
     border: none;
 }
+
+/* Slideshow page */
+
+.carousel-caption {
+    margin-bottom: 30px;
+}
+
+.carousel-indicators {
+    margin-bottom: 50px;
+}
+
+.carousel-item {
+    height: 730px;
+}
