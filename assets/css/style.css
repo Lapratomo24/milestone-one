@@ -369,3 +369,21 @@ footer h5 {
    padding: 60px 0 0 0;
    font-size: 200%;
 }
+
+.aside {
+    width: 130px;
+    margin-left: 20px;
+    padding: 10px 0;
+    background-color: rgba(16, 16, 16, 0.6)
+}
+
+.aside h4 {
+    color: #e6e6e6;
+    padding: 11px 5px 5px 5px;
+    text-align: center;
+}
+
+.main-text {
+    margin-left: 140px;
+    padding: 40px 10px;
+} 
