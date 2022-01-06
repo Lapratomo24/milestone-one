@@ -329,12 +329,12 @@ footer h5 {
 
 #map-background {
     background-color: #101010;
-    height: 700px;
+    height: 500px;
 }
 
 #googlemap {
     height: 100%;
-    padding: 80px;
+    padding: 20px;
 }
 
 #map {
@@ -368,5 +368,4 @@ footer h5 {
    text-align: center;
    padding: 60px 0 0 0;
    font-size: 200%;
-}
 }
