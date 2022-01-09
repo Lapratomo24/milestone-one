@@ -327,22 +327,34 @@ footer h5 {
 	border-color: #990000;
 }
 
-/* Slideshow page */
+/* Gallery page */
 
-.carousel-caption {
-    margin-bottom: 30px;
+.container {
+    position: relative;
 }
 
-.carousel-indicators {
-    margin-bottom: 50px;
+#top-image {
+    margin-top: 75px;
 }
 
-.carousel-slideshow {
-    height: 100%;
+.text-block {
+    position: absolute;
+    background-color: rgba(153, 0, 0, 0.6);
+    color: #e6e6e6;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 12px;
 }
 
-.slideshow-navbar {
-    z-index: 10;
+.text-block-left {
+    bottom: 20px;
+    left: 20px;
+}
+
+.text-block-right {
+    bottom: 20px;
+    right: 20px;
+    text-align: right;
 }
 
 /* Visit Us page */
@@ -392,7 +404,7 @@ footer h5 {
     border: none;
 }
 
-/* Responsive layout */
+/* Responsive layout for large to medium screen sizes from 1200px wide and down */
 
 @media screen and (max-width: 1200px) {
     #visit-headline {
@@ -405,4 +417,9 @@ footer h5 {
     }
 }
 
+@media screen and (max-width: 1200px) {
+    #slideshow {
+        height: 400px;
+    }
+}
 
