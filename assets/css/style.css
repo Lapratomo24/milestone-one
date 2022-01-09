@@ -268,10 +268,8 @@ footer h5 {
 /* Contact page */
 
 .contact-section {
-    background: url(../images/contact.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 800px;
+    background: url(../images/nes-console.jpg) no-repeat center center;
+    height: 650px;
 }
 
 .form {
