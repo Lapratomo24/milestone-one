@@ -333,6 +333,10 @@ footer h5 {
     position: relative;
 }
 
+#bg-color {
+    background-color: #990000;
+} 
+
 #top-image {
     margin-top: 75px;
 }
