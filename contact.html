@@ -27,23 +27,22 @@
         </header>
 
         <section class="contact-section">
-            <form class="form" action="https://formdump.codeinstitute.net/" method="POST">
+            <form class="form-container" action="https://formdump.codeinstitute.net/" method="POST">
                 <h2 style="font-family: 'Bangers', cursive; letter-spacing: 2px;">Send us your inquiries!</h2>
 
-                <label for="fname">First Name</label>
-                <input class="text-input" id="fname" type="text" name="first_name" required />
-                <label for="lname">Last Name</label>
-                <input class="text-input" id="lname" type="text" name="last_name" required />
+                <label for="full-name">Full Name</label>
+                <input class="text-input" id="full-name" type="text" name="full_name" required />
+                
                 <label for="email">Email Address</label>
                 <input class="text-input" id="email" type="email" name="email_address" required />
 
                 <fieldset>
                     <label for="feedback" class="block-label">Your message:</label>
-                    <br />
+                    <br/>
                     <textarea class="fieldset" id="feedback" rows="4" cols="87" name="feedback" required></textarea>
                 </fieldset>
 
-                <input class="send-button" type="submit" value="Send" />
+                <button type="submit" class="btn">Send</button>
             </form>
         </section>
     

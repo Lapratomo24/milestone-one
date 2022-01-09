@@ -268,61 +268,56 @@ footer h5 {
 /* Contact page */
 
 .contact-section {
-    background: url(../images/nes-console.jpg) no-repeat center center;
+    background-image: url(../images/nes-console.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
     height: 650px;
 }
 
-.form {
-    color:#e6e6e6;
+.form-container {
+    background-color: rgb(230, 230, 230, 0.9);
     position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(16,16,16, 0.6);
-    padding: 30px;
-    max-width: 800px;
-    font-family: 'Roboto Slab', serif;
+    left: 0;
+    margin: 100px 20px 20px 40px;
+    padding: 16px;
+    max-width: 400px;
 }
 
-.form > h2 {
-    color: #e6e6e6;
-    margin-bottom: 20px;
-}
-
-.text-input {
-    background: transparent;
-    color: #e6e6e6;
-    width: 100%;
-    height: 30px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #e6e6e6;
-    border-radius: 2px;
-}
-
-.text-input:hover {
-    border-color: #990000;
-}
-
-.send-button {
-    background-color: #990000;
-    border-radius: 2px;
-    display: block;
-    color: #e6e6e6;
-    margin-top: 20px;
-    padding: 15px 32px 15px 32px;
+.form-container > h2 {
+    margin-bottom: 30px;
     text-align: center;
+}
+
+input[type=text], input[type=email] {
     width: 100%;
+    padding: 15px;
+    margin: 5px 0 20px 0;
+    border: none;
+    border-radius: 2px;
+}
+
+.btn {
+    background-color: #990000;
+    color: #e6e6e6;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    opacity: 0.9;
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 1;
+    color: #e6e6e6;
 }
 
 .fieldset {
 	margin-top: 20px;
     width: 100%;
-    border: 2px solid #e6e6e6;
     padding: 0.5rem;
-}
-
-.fieldset:hover {
-	border-color: #990000;
+    border-radius: 2px;
 }
 
 /* Gallery page */
