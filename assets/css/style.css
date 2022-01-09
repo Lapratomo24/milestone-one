@@ -364,15 +364,22 @@ footer h5 {
     flex: 10%;
 }
 
+.backdrop {
+    color:rgba(16,16,16, 0.6);
+    text-shadow: 2px 2px 4px #e6e6e6;
+    font-size: xx-large;
+}
+
 .flex-item-right {
     flex: 50%;
     text-align: left;
+    font-size: 140%;
+    margin-right: 40px;
 }
 
 #map-background {
     background-color: #101010;
     height: 500px;
-    margin-right: 20px;
 }
 
 #googlemap {
