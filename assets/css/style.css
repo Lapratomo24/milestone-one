@@ -354,9 +354,8 @@ footer h5 {
 } 
 
 #visit-headline {
-   margin-top: 60px;
+   margin-top: 150px;
    text-align: center;
-   padding: 60px 0 0 0;
    font-size: 300%;
 }
 
@@ -392,3 +391,18 @@ footer h5 {
     height: 100%;
     border: none;
 }
+
+/* Responsive layout */
+
+@media screen and (max-width: 1200px) {
+    #visit-headline {
+        margin-top: 150px;
+        text-align: center;
+        font-size: 220%;
+    }
+    .flex-item-right {
+        font-size: 120%;
+    }
+}
+
+
