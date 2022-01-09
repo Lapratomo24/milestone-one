@@ -327,22 +327,6 @@ footer h5 {
 	border-color: #990000;
 }
 
-#map-background {
-    background-color: #101010;
-    height: 500px;
-}
-
-#googlemap {
-    height: 100%;
-    padding: 20px;
-}
-
-#map {
-    width: 100%;
-    height: 100%;
-    border: none;
-}
-
 /* Slideshow page */
 
 .carousel-caption {
@@ -363,27 +347,41 @@ footer h5 {
 
 /* Visit Us page */
 
-#opening-times > h3 {
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+} 
+
+#visit-headline {
    margin-top: 60px;
    text-align: center;
    padding: 60px 0 0 0;
-   font-size: 200%;
+   font-size: 300%;
 }
 
-.aside {
-    width: 130px;
-    margin-left: 20px;
-    padding: 10px 0;
-    background-color: rgba(16, 16, 16, 0.6)
+.flex-item-left {
+    flex: 10%;
 }
 
-.aside h4 {
-    color: #e6e6e6;
-    padding: 11px 5px 5px 5px;
-    text-align: center;
+.flex-item-right {
+    flex: 50%;
+    text-align: left;
 }
 
-.main-text {
-    margin-left: 140px;
-    padding: 40px 10px;
-} 
+#map-background {
+    background-color: #101010;
+    height: 500px;
+    margin-right: 20px;
+}
+
+#googlemap {
+    height: 100%;
+    padding: 20px;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
