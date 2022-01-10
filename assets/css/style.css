@@ -165,28 +165,27 @@ body {
 
 #entertainment > h3 {
     text-align: center;
-    padding: 40px 0;
+    padding-top: 50px;
+    padding-bottom: 20px;
     font-size: 200%;
 }
 
+#entertainment {
+    margin: 0 50px;
+}
+
 .responsive {
-    padding: 0 5px 40px 5px;
+    padding: 5px 5px;
     float: left;
-    padding-left: 55px;
-}
-
-.gallery {
-    border: 1px solid #ccc;
-    width: 400px;
-    margin: 1px;
-}
-
-.gallery:hover {
-    border: 1px solid #101010;
+    width: 33.33%;
 }
 
 * {
     box-sizing: border-box;
+}
+
+.gallery {
+    border: 1px solid #990000;
 }
 
 .gallery img {
@@ -203,6 +202,7 @@ body {
     content: "";
     display: table;
     clear: both;
+    margin-bottom: 40px;
 }
 
 /* Testimony carousel section */
