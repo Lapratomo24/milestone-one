@@ -104,46 +104,25 @@ body {
     background-color: rgba(126,127,142, 0.2);
 }
 
-#about > h3 {
+#about h3 {
     text-align: center;
     padding: 60px 0 0 0;
     font-size: 200%;
 }
 
-#text-left {
-    padding-top: 50px;
-    padding-right: 20px;
-    width: 45%;
-    float: left;
+.flexbox {
+    display: flex;
+    justify-content: center;
 }
 
-#text-right {
-    padding-top: 50px;
-    padding-left: 20px;
-    width: 55%;
-    float: right;
-}
-
-#text-header-left {
-    float: right;
-}
-
-#text-header-right {
-    float: left;
-}
-
-#text-header-left, #text-header-right {
-    width: 80%;
-    line-height: 20px;
-    padding-bottom: 60px;
-}
-
-#text-header-right p, #text-header-left p {
-    text-align: justify;
-}
-
-#text-header-right h3, #text-header-left h3 {
+.flexbox > div {
+    width: 600px;
+    margin: 20px;
     text-align: center;
+}
+
+#text-left p, #text-right p {
+    text-align: justify;
 }
 
 /* Trust subsection and logos */
@@ -418,21 +397,6 @@ input[type=text], input[type=email] {
     .flex-item-right {
         font-size: 120%;
     }
-}
-
-@media screen and (max-width: 1200px) {
-    .text-block {
-        position: absolute;
-        background-color: rgba(153, 0, 0, 0.6);
-        color: #e6e6e6;
-        font-size: small;
-        padding-right: 20px;
-        padding-left: 20px;
-        padding-top: 12px;
-    }
-}
-
-@media screen and (max-width: 1200px) {
     #testimony {
         width: 100%;
         height: auto;
@@ -447,7 +411,18 @@ input[type=text], input[type=email] {
         padding: 0 100px 50px 100px;
         color: #e6e6e6;
         font-size: medium;
-    }    
+    }
+    .flex-container {
+        margin: 0 auto;
+        padding: 50px 0;
+        width: 66.66%;
+    }
+    #text-right {
+        margin-right: 70px;
+    }
+    #text-left {
+        margin-left: 70px;
+    }
 }
 
 @media screen and (max-width: 950px) {
@@ -456,10 +431,31 @@ input[type=text], input[type=email] {
         float: left;
         width: 50%;
     }
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 0;
+    }
+    .flexbox {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #text-right {
+        margin: 0 20px;
+    }
+    #text-left {
+        margin: 0 20px;
+    }
+    #about h3 {
+        font-size: 150%;
+    }
+    
 }
 
 @media screen and (max-width: 600px) {
     .responsive {
         width: 100%;
     }
+    
 }
