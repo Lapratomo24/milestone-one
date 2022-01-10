@@ -450,4 +450,16 @@ input[type=text], input[type=email] {
     }    
 }
 
+@media screen and (max-width: 950px) {
+    .responsive {
+        padding: 5px 5px;
+        float: left;
+        width: 50%;
+    }
+}
 
+@media screen and (max-width: 600px) {
+    .responsive {
+        width: 100%;
+    }
+}
