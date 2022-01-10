@@ -220,17 +220,20 @@ body {
     padding: 80px 0 40px 0;
     font-size: 250%;
     color: #e6e6e6;
+    text-shadow: 3px 3px 5px #101010;
 }
 
 .carousel-item > h4 {
     text-align: center;
     color: #e6e6e6;
+    text-shadow: 3px 3px 5px #101010;
 }
 
 .carousel-item p {
     text-align: center;
-    padding: 0 150px;
+    padding: 0 200px;
     color: #e6e6e6;
+    text-shadow: 3px 3px 5px #101010;
 }
 
 /* Footer section */
@@ -376,7 +379,7 @@ input[type=text], input[type=email] {
 }
 
 .backdrop {
-    color:rgba(16,16,16, 0.6);
+    color: rgba(16, 16, 16, 0.8);
     text-shadow: 2px 2px 4px #e6e6e6;
     font-size: xx-large;
 }
