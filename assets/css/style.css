@@ -208,14 +208,17 @@ body {
 /* Testimony carousel section */
 
 #testimony {
-    background: url(../images/background.jpg);
+    background: url(../images/testimony-pic.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 350px;
 }
 
 #testimony > h3 {
     text-align: center;
-    padding: 60px 0;
-    font-size: 200%;
+    padding: 80px 0 40px 0;
+    font-size: 250%;
     color: #e6e6e6;
 }
 
@@ -425,4 +428,23 @@ input[type=text], input[type=email] {
         padding-top: 12px;
     }
 }
+
+@media screen and (max-width: 1200px) {
+    #testimony {
+        width: 100%;
+        height: auto;
+    }
+    .carousel-item > h4 {
+        text-align: center;
+        color: #e6e6e6;
+        font-size: medium;
+    }
+    .carousel-item p {
+        text-align: center;
+        padding: 0 100px 50px 100px;
+        color: #e6e6e6;
+        font-size: medium;
+    }    
+}
+
 
