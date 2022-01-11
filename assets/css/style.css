@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 
 * {
     margin: 0;
@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Fira Sans', sans-serif;
     color: #101010;
 }
 
@@ -111,7 +111,7 @@ body {
 
 #about h3 {
     text-align: center;
-    padding: 60px 0 0 0;
+    padding: 60px 0 10px 0;
     font-size: 200%;
 }
 
