@@ -28,6 +28,15 @@ body {
     color: #e6e6e6;
 }
 
+#navbarNav a.active {
+    background-color: #101010;
+    border-radius: 5px;
+}
+
+#navbarNav a:hover {
+    color: #101010;
+}
+
 #fixed-navbar {
     background-color: #990000;
     position: fixed;
@@ -242,6 +251,10 @@ footer h5 {
     font-size: 180%;
     margin-right: 2%;
     color: #e6e6e6;
+}
+
+#social-media i:hover {
+    color: #101010;
 }
 
 /* Contact page */
