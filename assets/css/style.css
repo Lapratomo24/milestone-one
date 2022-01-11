@@ -444,6 +444,12 @@ input[type=text], input[type=email] {
     #about h3 {
         font-size: 150%;
     }
+    #footer-left {
+        display: none;
+    }
+    #footer-right {
+        text-align: center;
+    }
     
 }
 
