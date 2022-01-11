@@ -14,27 +14,27 @@ body {
 
 /* Logo and Navigation */
 
-#navbar {
+#navbarNav {
     float: right;
     letter-spacing: 2px;
 }
 
-#navbar li {
+#navbarNav li {
     list-style: none;
     float: left;
-    margin-right: 40px;
+    margin-right: 30px;
 }
 
-#navbar a {
+#navbarNav a {
     text-decoration: none;
     color: #e6e6e6;
 }
 
-#logo, #navbar {
-    line-height: 75px;
+#logo, #navbarNav {
+
 }
 
-.fixed-navbar {
+#fixed-navbar {
     background-color: #990000;
     position: fixed;
     top: 0;
