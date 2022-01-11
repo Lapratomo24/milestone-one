@@ -5,6 +5,8 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -48,7 +50,7 @@ body {
 /* Hero image and headline */
 
 #hero-outer {
-    height: 650px;
+    height: 100vh;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -56,7 +58,7 @@ body {
 }
 
 #hero-image {
-    height: 650px;
+    height: 100vh;
     width: 100%;
     background: url('../images/hero-image.jpg') fixed center center;
 }
@@ -160,10 +162,6 @@ body {
     padding: 5px 5px;
     float: left;
     width: 33.33%;
-}
-
-* {
-    box-sizing: border-box;
 }
 
 .gallery {
