@@ -12,18 +12,23 @@
         <link rel="stylesheet" href="assets/css/style.css" />
     </head>
     <body>
-        <header id="fixed-navbar">
-            <a href="index.html">
-                <img src="assets/images/gamehub.png">
-            </a>
-            <nav id="navbar">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="visit.html">Visit Us</a></li>
-                    <li><a href="slideshow.html">Slideshow</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </nav>
+        <header id="fixed-navbar" class="navbar navbar-expand-lg navbar-dark" style="background-color: #990000;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/gamehub.png">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav id="navbarNav" class="navigation collapse navbar-collapse justify-content-end">
+                    <ul class="navbar-nav">
+                        <li class="navbar-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="navbar-item"><a class="nav-link active" aria-current="page" href="visit.html">Visit Us</a></li>
+                        <li class="navbar-item"><a class="nav-link" href="slideshow.html">Slideshow</a></li>
+                        <li class="navbar-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
         <!-- Opening times section -->

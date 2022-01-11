@@ -15,23 +15,17 @@ body {
 /* Logo and Navigation */
 
 #navbarNav {
-    float: right;
     letter-spacing: 2px;
 }
 
 #navbarNav li {
     list-style: none;
-    float: left;
     margin-right: 30px;
 }
 
 #navbarNav a {
     text-decoration: none;
     color: #e6e6e6;
-}
-
-#logo, #navbarNav {
-
 }
 
 #fixed-navbar {
