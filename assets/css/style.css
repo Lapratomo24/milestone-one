@@ -111,7 +111,7 @@ body {
 
 #about h3 {
     text-align: center;
-    padding: 60px 0 10px 0;
+    padding: 60px 0 0 0;
     font-size: 200%;
 }
 
@@ -149,6 +149,11 @@ body {
 
 #entertainment {
     margin: 0 50px;
+}
+
+#entertainment > h3 {
+    text-align: center;
+    padding: 50px 0 40px 0;
 }
 
 .responsive {
