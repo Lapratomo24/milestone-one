@@ -82,25 +82,25 @@ body {
 
 #visit-us {
     background-color: #cc0000;
-    border-radius: 10px;
-    color: #f2f2f2;
-    text-transform: uppercase;
+    border-radius: 5px;
+    color: #e6e6e6;
     text-decoration: none;
     padding: 16px 32px;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
     position: absolute;
-    top: 65%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
+    cursor: pointer;
 }
 
-#visit-button:hover {
-    background-color: #f2f2f2;
-    color: #cc0000;
+#visit-us:hover {
+    background-color: #e6e6e6;
+    color: #990000;
 }
 
 /* About section */
@@ -441,6 +441,9 @@ input[type=text], input[type=email] {
         margin: 0 80px;
         text-align: center;
     }
+    #headline {
+        font-size: 4rem;
+    }
 }
 
 @media screen and (max-width: 950px) {
@@ -483,6 +486,12 @@ input[type=text], input[type=email] {
         margin: 0 40px;
         text-align: center;
     }
+    #headline {
+        font-size: 3rem;
+    }
+    #visit-us {
+        font-size: 1rem;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -491,6 +500,9 @@ input[type=text], input[type=email] {
     }
     .form-container {
         margin: 120px 40px;
+    }
+    #headline {
+        font-size: 2rem;
     }
 }
 
