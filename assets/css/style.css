@@ -311,6 +311,7 @@ input[type=text], input[type=email] {
 
 .container {
     position: relative;
+    min-width: 100%;
 }
 
 #bg-color {
@@ -323,11 +324,11 @@ input[type=text], input[type=email] {
 
 .text-block {
     position: absolute;
-    background-color: rgba(153, 0, 0, 0.6);
+    background-color: rgba(153, 0, 0, 0.9);
     color: #e6e6e6;
     padding-right: 20px;
     padding-left: 20px;
-    padding-top: 12px;
+    padding-top: 10px;
 }
 
 .text-block-left {
