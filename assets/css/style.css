@@ -34,7 +34,7 @@ body {
     background-color: #fafafa;
     border-radius: 5px;
     color: #101010;
-    padding: 10px;
+    padding: 8px;
 }
 
 #navbarNav a:hover {
@@ -57,20 +57,19 @@ body {
     width: 100%;
     overflow: hidden;
     position: relative;
-    margin-top: 75px;
 }
 
 #hero-image {
     height: 100vh;
     width: 100%;
     background: url('../images/hero-image.jpg') fixed center center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #headline {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     font-family: 'Bangers', cursive;
     font-size: 5rem;
     font-weight: bold;
@@ -78,7 +77,7 @@ body {
     text-transform: capitalize;
     text-shadow: 4px 4px 6px #000000;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: center;
     color: #f2f2f2;
 }
@@ -89,16 +88,11 @@ body {
     border-radius: 5px;
     color: #fafafa;
     text-decoration: none;
-    padding: 15px 30px;
+    padding: 10px 25px;
     text-align: center;
     font-size: 1.5rem;
-    margin: 4px 2px;
+    margin-top: 50px;
     transition-duration: 0.4s;
-    cursor: pointer;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     cursor: pointer;
 }
 
