@@ -84,11 +84,12 @@ body {
 }
 
 #visit-us {
-    background-color: #cc0000;
+    background-color: #990000;
+    border: 1px solid #fafafa;
     border-radius: 5px;
-    color: #e6e6e6;
+    color: #fafafa;
     text-decoration: none;
-    padding: 16px 32px;
+    padding: 15px 30px;
     text-align: center;
     font-size: 1.5rem;
     margin: 4px 2px;
@@ -102,7 +103,7 @@ body {
 }
 
 #visit-us:hover {
-    background-color: #e6e6e6;
+    background-color: #fafafa;
     color: #990000;
 }
 
