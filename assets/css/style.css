@@ -27,16 +27,19 @@ body {
 
 #navbarNav a {
     text-decoration: none;
-    color: #e6e6e6;
+    color: #fafafa;
 }
 
 #navbarNav a.active {
-    background-color: #101010;
+    background-color: #fafafa;
     border-radius: 5px;
+    color: #101010;
+    padding: 10px;
 }
 
 #navbarNav a:hover {
-    color: #101010;
+    color: #fafafa;
+    opacity: 0.8;
 }
 
 #fixed-navbar {
@@ -328,7 +331,7 @@ input[type=text], input[type=email] {
     color: #e6e6e6;
     padding-right: 20px;
     padding-left: 20px;
-    padding-top: 10px;
+    padding-top: 12px;
 }
 
 .text-block-left {
