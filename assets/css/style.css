@@ -60,7 +60,7 @@ body {
 }
 
 #hero-image {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background: url('../images/hero-image.jpg') fixed center center;
     display: flex;
@@ -491,6 +491,9 @@ input[type=text], input[type=email] {
     #visit-us {
         font-size: 1rem;
     }
+    .text-block {
+        font-size: small;
+    }
 
 }
 
@@ -503,6 +506,12 @@ input[type=text], input[type=email] {
     }
     #headline {
         font-size: 2rem;
+    }
+    .navbar-brand {
+        max-width: 100px;
+    }
+    .text-block {
+        font-size: x-small;
     }
 }
 
