@@ -52,16 +52,8 @@ body {
 
 /* Hero image and headline */
 
-#hero-outer {
-    height: 100vh;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
 #hero-image {
-    height: 100%;
-    width: 100%;
+    height: 100vh;
     background: url('../images/hero-image.jpg') fixed center center;
     display: flex;
     align-items: center;
@@ -72,14 +64,13 @@ body {
 #headline {
     font-family: 'Bangers', cursive;
     font-size: 5rem;
-    font-weight: bold;
     letter-spacing: 5px;
     text-transform: capitalize;
     text-shadow: 4px 4px 6px #000000;
     width: 100%;
     margin-top: 30px;
     text-align: center;
-    color: #f2f2f2;
+    color: #fafafa;
 }
 
 #visit-us {
@@ -310,7 +301,7 @@ input[type=text], input[type=email] {
 
 .container {
     position: relative;
-    min-width: 100%;
+    min-width: 100vw;
 }
 
 #bg-color {
@@ -487,7 +478,7 @@ input[type=text], input[type=email] {
         text-align: center;
     }
     #headline {
-        font-size: 3rem;
+        font-size: 4rem;
     }
     #visit-us {
         font-size: 1rem;
