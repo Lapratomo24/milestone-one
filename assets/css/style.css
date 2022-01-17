@@ -314,8 +314,8 @@ input[type=text], input[type=email] {
 
 .text-block {
     position: absolute;
-    background-color: rgba(153, 0, 0, 0.9);
-    color: #e6e6e6;
+    background-color: rgba(250, 250, 250, 0.9);
+    color: #101010;
     padding-right: 20px;
     padding-left: 20px;
     padding-top: 12px;
@@ -323,12 +323,12 @@ input[type=text], input[type=email] {
 
 .text-block-left {
     bottom: 20px;
-    left: 20px;
+    left: 30px;
 }
 
 .text-block-right {
     bottom: 20px;
-    right: 20px;
+    right: 30px;
     text-align: right;
 }
 
@@ -354,7 +354,7 @@ input[type=text], input[type=email] {
 
 .backdrop {
     color: rgba(16, 16, 16, 0.8);
-    text-shadow: 2px 2px 4px #e6e6e6;
+    text-shadow: 2px 2px 4px #fafafa;
     font-size: xx-large;
     text-align: center;
 }
@@ -483,9 +483,20 @@ input[type=text], input[type=email] {
     #visit-us {
         font-size: 1rem;
     }
-    .text-block {
-        font-size: small;
+    .text-block-left, .text-block-right {
+        bottom: 10px;
+        left: 60px;
+        right: 60px;
+        text-align: center;
+        padding-top: 5px;
     }
+    .text-block > p {
+        display: none;
+    }
+    .text-block > h3 {
+        font-size: medium;
+    }
+    
 
 }
 
@@ -504,6 +515,9 @@ input[type=text], input[type=email] {
     }
     .text-block {
         font-size: x-small;
+    }
+    #top-image {
+        margin-top: 90px;
     }
 }
 
