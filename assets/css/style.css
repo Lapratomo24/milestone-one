@@ -258,16 +258,16 @@ footer h5 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    height: 650px;
+    margin-top: 100px;
+    min-height: calc(100vh - 188px);
+    display: flex;
+    align-items: center;
 }
-
 .form-container {
     background-color: #e6e6e6;
-    position: absolute;
-    margin: 120px 20px auto 40px;
-    padding: 10px;
-    max-width: 450px;
+    margin: 0 20px 0 40px;
+    padding: 8px;
+    max-width: 500px;
 }
 
 .form-container > h2 {
@@ -291,6 +291,7 @@ input[type=text], input[type=email] {
     opacity: 0.9;
     width: 100%;
     cursor: pointer;
+    margin-top: 5px;
 }
 
 .btn:hover {
