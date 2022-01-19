@@ -40,11 +40,15 @@ The website is easily navigable and fully responsive across all screen sizes.
 
 ## Features
 
-### Navigation Bar
+- #### Navigation Bar
 
-    A website begins with a visible header which is, as per norm, is filled with a business logo and top navigation items. The GameHub logo is created on Canva and colored white so it contrasts well with red as the background. Fully responsive top navigations bar consists of 4 items, namely Home, Visit, Gallery, and Contact Us. Each item reacts when one hovers over it or when the page represented by each button is active after clicking. This header is identical on all four pages of the website, and it will allow users to navigate through the pages easily across devices without having to click the 'back' button.
+   - A website begins with a visible header which is, as per norm, is filled with a business logo and top navigation items. The GameHub logo is created on Canva and colored white so it contrasts well with red as the background. Fully responsive top navigations bar consists of 4 items, namely Home, Visit, Gallery, and Contact Us. Each item reacts when one hovers over it or when the page represented by each button is active after clicking. This header is identical on all four pages of the website, and it will allow users to navigate through the pages easily across devices without having to click the 'back' button.
+   
+   ![Logo and navigation bar](assets/readme-img/header.png)
 
-    ![Logo and navigation bar](assets/readme-img/header.png)
+- #### Hero Image
+
+  
 
 ### 
 
