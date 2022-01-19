@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
 
 * {
     margin: 0;
@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: "Fira Sans", sans-serif;
     color: #101010;
 }
 
@@ -54,7 +54,7 @@ body {
 
 #hero-image {
     height: 100vh;
-    background: url('../images/hero-image.jpg') fixed center center;
+    background: url("../images/hero-image.jpg") fixed center center;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -62,7 +62,7 @@ body {
 }
 
 #headline {
-    font-family: 'Bungee Shade', cursive;
+    font-family: "Bungee Shade", cursive;
     font-size: 4rem;
     letter-spacing: 2px;
     text-transform: capitalize;
@@ -95,7 +95,7 @@ body {
 /* About section */
 
 #about {
-    background-color: rgba(126,127,142, 0.2);
+    background-color: rgba(126, 127, 142, 0.2);
 }
 
 #about h3 {
@@ -115,7 +115,8 @@ body {
     text-align: center;
 }
 
-#text-left p, #text-right p {
+#text-left p,
+#text-right p {
     text-align: justify;
 }
 
@@ -223,7 +224,8 @@ footer h5 {
     text-align: right;
 }
 
-#footer-left, #footer-right {
+#footer-left,
+#footer-right {
     padding-top: 30px;
     padding-bottom: 10px;
 }
@@ -267,7 +269,8 @@ footer h5 {
     text-align: center;
 }
 
-input[type=text], input[type=email] {
+input[type="text"],
+input[type="email"] {
     width: 100%;
     padding: 15px;
     margin: 5px 0 20px 0;
@@ -296,7 +299,7 @@ input[type=text], input[type=email] {
 }
 
 .fieldset {
-	margin-top: 10px;
+    margin-top: 10px;
     width: 100%;
     padding: 0.5rem;
     border-radius: 2px;
@@ -311,7 +314,7 @@ input[type=text], input[type=email] {
 
 #bg-color {
     background-color: #990000;
-} 
+}
 
 #top-image {
     margin-top: 75px;
@@ -347,10 +350,10 @@ input[type=text], input[type=email] {
 }
 
 #visit-headline {
-   padding-top: 200px;
-   padding-bottom: 50px;
-   text-align: center;
-   font-size: 300%;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 300%;
 }
 
 .flex-item-left {
@@ -479,7 +482,8 @@ input[type=text], input[type=email] {
     #visit-us {
         font-size: 1rem;
     }
-    .text-block-left, .text-block-right {
+    .text-block-left,
+    .text-block-right {
         bottom: 10px;
         left: 60px;
         right: 60px;
@@ -515,8 +519,5 @@ input[type=text], input[type=email] {
     }
     .carousel-item p {
         padding: 0 50px 10px 50px;
-        
     }
 }
-
-
