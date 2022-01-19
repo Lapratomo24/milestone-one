@@ -29,7 +29,25 @@ The website is easily navigable and fully responsive across all screen sizes.
 
 ### Design
 
-### Structure
+- #### Color Scheme
+    - Only two main colors are used, namely red #990000 and white #fafafa.
+
+- #### Typography
+    - The main font for headlines or headings is Bungee Shade with cursive as the fallback font in case the user's browser does not support the main font. The font used for most of the content is Fira Sans with sans-serif as the fallback font.
+
+- #### Imagery
+    - The image used for the hero image is of a game controller, which should give a good idea of what the site might be about for users who visit it for the first time. Other images used throughout the website represent the imaginary business well, with gaming apparatus and activities that can raise users' interest to come and visit the GameHub venue.
+
+## Features
+
+### Navigation Bar
+
+    A website begins with a visible header which is, as per norm, is filled with a business logo and top navigation items. The GameHub logo is created on Canva and colored white so it contrasts well with red as the background. Fully responsive top navigations bar consists of 4 items, namely Home, Visit, Gallery, and Contact Us. Each item reacts when one hovers over it or when the page represented by each button is active after clicking. This header is identical on all four pages of the website, and it will allow users to navigate through the pages easily across devices without having to click the 'back' button.
+
+    ![Logo and navigation bar](assets/readme-img/header.png)
+
+### 
+
 
 
 
