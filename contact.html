@@ -33,13 +33,18 @@
 
         <section class="contact-section">
             <form class="form-container" action="https://formdump.codeinstitute.net/" method="POST">
-                <h3 style="font-family: 'Bungee Shade', cursive; letter-spacing: 2px;">Your inquiry</h3>
+                <h3 style="font-family: 'Bungee Shade', cursive; color: #990000;">Your inquiry</h3>
 
                 <label for="full-name">Full Name</label>
                 <input class="text-input" id="full-name" type="text" name="full_name" required />
                 
                 <label for="email">Email Address</label>
                 <input class="text-input" id="email" type="email" name="email_address" required />
+
+                <label for="general">General</label>
+                <input id="general" type="radio" name="inquiry_preference" value="general" required>
+                <label for="reservation">Reservation</label>
+                <input id="reservation" type="radio" name="inquiry_preference" value="reservation" required>
 
                 <fieldset>
                     <label for="feedback" class="block-label">Your message:</label>

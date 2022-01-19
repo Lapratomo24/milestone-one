@@ -291,8 +291,12 @@ input[type=text], input[type=email] {
     color: #e6e6e6;
 }
 
+.block-label {
+    margin-top: 20px;
+}
+
 .fieldset {
-	margin-top: 20px;
+	margin-top: 10px;
     width: 100%;
     padding: 0.5rem;
     border-radius: 2px;
