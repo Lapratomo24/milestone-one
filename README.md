@@ -2,17 +2,36 @@
 
 Welcome to GameHub!
 
-The GameHub is a gaming venue website, with which the owners intend to invite gamers to come visit a brand new this brand new gaming venue located in central Berlin and try their hands on the latest gaming apparatus available on site. Gamers can come alone or bring up to 4 friends to the site to enjoy some fun time together.
+The GameHub is a gaming venue website, with which the owners intend to attract members of the gaming community and them to come visit a brand new this brand new gaming venue located in central Berlin and try their hands on the latest gaming apparatus available on site. Gamers can come alone or bring up to 4 friends to the site to enjoy some fun time together.
 
 The website showcases the available types of gaming activities on both the homepage and gallery page. It also informs interested visitors of the business' opening times, prices, guidelines during the pandemic, and directions. On the contact page, one can also use the contact form to contact GameHub, whether it be for general inquiries or reservation purposes.
 
 The website is easily navigable and fully responsive across all screen sizes.
 
-[Live website HERE](https://lapratomo24.github.io/the-gamehub/)
+[Live Website HERE](https://lapratomo24.github.io/the-gamehub/)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![Responsive Mockup](assets/readme-img/mockup.png)
 
-`python3 -m http.server`
+## User Experience (UX)
+
+### User Stories
+
+- #### New users are able to:
+    - Learn about the gaming venue, its offerings, its business hours, and its location.
+    - Navigate through the pages easily and find all relevant information.
+    - Be able to use the contact form for any inquiry regarding the venue.
+    - Have a positive experience using the website.
+
+- #### Returning users are able to:
+    - Remind themselves of its business hours.
+    - Get in contact with GameHub for any inquiry.
+    - Find social media buttons to follow and see any updates from the venue.
+
+### Design
+
+### Structure
+
+
 
 A blue button should appear to click: _Make Public_,
 
