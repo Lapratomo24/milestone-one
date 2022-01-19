@@ -1,12 +1,14 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The GameHub
 
-Welcome Lapratomo24,
+Welcome to GameHub!
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The GameHub is a gaming venue website, with which the owners intend to invite gamers to come visit a brand new this brand new gaming venue located in central Berlin and try their hands on the latest gaming apparatus available on site. Gamers can come alone or bring up to 4 friends to the site to enjoy some fun time together.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+The website showcases the available types of gaming activities on both the homepage and gallery page. It also informs interested visitors of the business' opening times, prices, guidelines during the pandemic, and directions. On the contact page, one can also use the contact form to contact GameHub, whether it be for general inquiries or reservation purposes.
 
-## Gitpod Reminders
+The website is easily navigable and fully responsive across all screen sizes.
+
+[Live website HERE](https://lapratomo24.github.io/the-gamehub/)
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
