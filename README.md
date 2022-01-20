@@ -64,9 +64,9 @@ The website is easily navigable and fully responsive across all screen sizes.
 
 - #### About Section
 
-    - The about section consists of two small sections. One is a brief description of The GameHub and the purpose of the establishment. Section two's purpose is to show that the business is partnered with well-known, imaginary establishments in the gaming community. This in turn will give a sense of trust to those who are interested to come and visit The GameHub.<br />
+    - The about section consists of two small sections. One is a brief description of The GameHub and the purpose of the establishment. Section two's purpose is to show that the business is partnered with well-known, imaginary establishments in the gaming community. This in turn will give a sense of trust to those who are interested to come and visit The GameHub.
 
-    - Both the about section and partners section are fully responsive. The text below the headline will stack on top of each other on smaller screen sizes. Likewise, the four partner logos will also behave in a similar way.
+    - Both the about section and partners section are fully responsive. The text below the headline will stack on top of each other on smaller screen sizes. Likewise, the four partner logos will also behave in a similar way.<br />
 
     <details><summary><b>About - Description</b></summary>
 
@@ -78,7 +78,18 @@ The website is easily navigable and fully responsive across all screen sizes.
     ![Partners](assets/readme-img/partners.png)
     </details><br />
 
-- ####
+- #### Small Gallery Section
+
+    - The small gallery section on the homepage showcases six images of different types of gaming visitors can enjoy spending time on within GameHub, each accompanied by a short text to describe said activities. On smaller screen sizes between 600 to 950px wide, the three-columned images will turn to two-columned images for responsive purposes. On even smaller screen sizes, the images will stack on top of each other and have a full-sized width based on viewport.<br />
+
+    <details><summary><b>Small Gallery</b></summary>
+
+    ![Small Gallery](assets/readme-img/small-gallery.png)
+    </details><br />
+
+- #### Testimony
+
+    - 
 
 ### 
 
