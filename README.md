@@ -6,8 +6,6 @@ The GameHub is a gaming venue website, with which the owners intend to attract m
 
 The website showcases the available types of gaming activities on both the homepage and gallery page. It also informs interested visitors of the business' opening times, prices, guidelines during the pandemic, and directions. On the contact page, one can also use the contact form to contact GameHub, whether it be for general inquiries or reservation purposes.
 
-The website is easily navigable and fully responsive across all screen sizes.
-
 [Live Website HERE](https://lapratomo24.github.io/the-gamehub/)
 
 ![Responsive Mockup](assets/readme-img/mockup.png)
@@ -38,15 +36,25 @@ The website is easily navigable and fully responsive across all screen sizes.
 - #### Imagery
     - The image used for the hero image is of a game controller, which should give a good idea of what the site might be about for users who visit it for the first time. Other images used throughout the website represent the imaginary business well, with gaming apparatus and activities that can raise users' interest to come and visit the GameHub venue.
 
+## Structure
+
+The website consists of four pages beginning with the default homepage. On all four pages, users can see the top navigation bar with the business logo on the left, which functions the same way as the first navigation item to the right of it, Home, and that is to take the users back to the homepage after visiting one of the other three pages. The homepage displays the hero image and headline text, the about section right after it, as well as a small gallery and visitor testimony just below it. The footer, which is displayed on all four pages, consists of copyright text on the left and social media icons on the right. The icons are external links which, when clicked, will open a new tab and redirect users to each social media channel represented by their respective icons.
+
+The website is easily navigable and fully responsive across all screen sizes.
+
 ## Features
 
 - #### Navigation Bar
 
-   - A website begins with a visible header which is, as per norm, is filled with a business logo and top navigation items. The GameHub logo is created on Canva and colored white so it contrasts well with red as the background. Fully responsive top navigations bar consists of 4 items, namely Home, Visit, Gallery, and Contact Us. Each item reacts when one hovers over it or when the page represented by each button is active after clicking. This header is identical on all four pages of the website, and it will allow users to navigate through the pages easily across devices without having to click the 'back' button.
+   - The website begins with a visible header which is, as per norm, is filled with a business logo and top navigation items. The GameHub logo is created on Canva and colored white so it contrasts well with red as the background. Fully responsive top navigations bar consists of 4 items, namely Home, Visit, Gallery, and Contact Us. Each item reacts when one hovers over it or when the page represented by each button is active after clicking. This header is identical on all four pages of the website, and it will allow users to navigate through the pages easily across devices without having to click the 'back' button. This navigation bar as a whole also stays visible whenever users scroll down the pages.
    
    ![Logo and navigation bar](assets/readme-img/header.png)
 
 - #### Hero Image
+
+    - The hero image, coupled with an eye-catching headline text, introduces first-time visitors to GameHub. It conveys the message of what the website is about. It shows a gaming controller with text overlay 'made for gamers' to grab users' attention. Just below the headline text, users can see a responsive 'Visit Us' button which, when clicked, will redirect users to the business hours of GameHub. The hero image is set as fixed, meaning that when users scroll down the page, the image stays fixed to the top to give a prettier transition feel to it.
+
+    ![Logo and navigation bar](assets/readme-img/hero-image.png)
 
   
 
