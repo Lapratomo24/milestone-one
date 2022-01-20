@@ -54,7 +54,7 @@ The website is easily navigable and fully responsive across all screen sizes.
    
    ![Logo and navigation bar](assets/readme-img/header.png)
 
-   - Through the use of bootstrap, the navigation bar is designed to be responsive when users are on devices with different, smaller screen sizes such as tablets and smartphones. The navigation items will collapse into a toggler, which sometimes is called a burger button, on smaller screen sizes. The four navigation items should be visible in a vertical order when users click on the toggler, which then can be used to navigate the site in the same way as when viewing from a PC or laptop.
+   - Through the use of bootstrap, the navigation bar is designed to be responsive when users are on devices with different, smaller screen sizes such as tablets and smartphones. The navigation items will collapse into a toggler, which sometimes is called a burger button, on smaller screen sizes. The four navigation items should be visible in a vertical order when users click on the toggler, which then can be used to navigate the site in the same way as when viewing from a PC or laptop.<br /><br />
 
 - #### Hero Image
 
@@ -66,7 +66,7 @@ The website is easily navigable and fully responsive across all screen sizes.
 
     - The about section consists of two small sections. One is a brief description of The GameHub and the purpose of the establishment. Section two's purpose is to show that the business is partnered with well-known, imaginary establishments in the gaming community. This in turn will give a sense of trust to those who are interested to come and visit The GameHub.
 
-    - Both the about section and partners section are fully responsive. The text below the headline will stack on top of each other on smaller screen sizes. Likewise, the four partner logos will also behave in a similar way.<br />
+    - Both the about section and partners section are fully responsive. The text below the headline will stack on top of each other on smaller screen sizes. Likewise, the four partner logos will also behave in a similar way.
 
     <details><summary><b>About - Description</b></summary>
 
@@ -80,16 +80,32 @@ The website is easily navigable and fully responsive across all screen sizes.
 
 - #### Small Gallery Section
 
-    - The small gallery section on the homepage showcases six images of different types of gaming visitors can enjoy spending time on within GameHub, each accompanied by a short text to describe said activities. On smaller screen sizes between 600 to 950px wide, the three-columned images will turn to two-columned images for responsive purposes. On even smaller screen sizes, the images will stack on top of each other and have a full-sized width based on viewport.<br />
+    - The small gallery section on the homepage showcases six images of different types of gaming visitors can enjoy spending time on within GameHub, each accompanied by a short text to describe said activities. On smaller screen sizes between 600 to 950px wide, the three-columned images will turn to two-columned images for responsive purposes. On even smaller screen sizes, the images will stack on top of each other and have a full-sized width based on viewport.<br /><br />
 
     <details><summary><b>Small Gallery</b></summary>
 
     ![Small Gallery](assets/readme-img/small-gallery.png)
     </details><br />
 
-- #### Testimony
+- #### Testimony Section
 
-    - 
+    - The tesimony section is another way to convince first-time visitors that others have been to The GameHub and had a good experience spending time on playing games at the establishment. The carousel is added via a bootstrap library, and showcases a testimony from two different imaginary people each. It has a background of four virtual reality gamers as a nice and colorful backdrop behind the texts. This section is also responsive based on different screen sizes.<br /><br />
+
+    <details><summary><b>Testimony</b></summary>
+
+    ![Testimony](assets/readme-img/testimony.png)
+    </details><br />
+
+- #### Footer
+
+    - The footer is located at the bottom of the page with the same red background as the top navigation bar. On the left side is a simple copyright text, notifying users that the site belongs to GameHub. And on the right side are the externally-linked social media buttons, which when clicked, open a new tab to redirect users to each social media channel. The footer is fully responsive, and on smaller screen sizes it will retain the social media buttons and make the left-side text disappear, positioning the former to the center of the screen.<br /><br />
+
+    <details><summary><b>Footer</b></summary>
+
+    ![Footer](assets/readme-img/footer.png)
+    </details><br />
+
+
 
 ### 
 
