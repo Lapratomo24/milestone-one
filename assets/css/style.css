@@ -253,7 +253,7 @@ footer h5 {
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 100px;
-    min-height: calc(100vh - 170px);
+    min-height: calc(100vh - 50px);
     display: flex;
     align-items: center;
 }
