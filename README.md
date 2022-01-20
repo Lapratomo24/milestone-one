@@ -36,7 +36,7 @@ The website showcases the available types of gaming activities on both the homep
 - #### Imagery
     - The image used for the hero image is of a game controller, which should give a good idea of what the site might be about for users who visit it for the first time. Other images used throughout the website represent the imaginary business well, with gaming apparatus and activities that can raise users' interest to come and visit the GameHub venue.
 
-------
+<br /><br />
 
 ## Structure
 
@@ -44,7 +44,7 @@ The website consists of four pages beginning with the default homepage. On all f
 
 The website is easily navigable and fully responsive across all screen sizes.
 
-------
+<br /><br />
 
 ## Features
 
@@ -100,10 +100,9 @@ The website is easily navigable and fully responsive across all screen sizes.
 
     - The footer is located at the bottom of the page with the same red background as the top navigation bar. On the left side is a simple copyright text, notifying users that the site belongs to GameHub. And on the right side are the externally-linked social media buttons, which when clicked, open a new tab to redirect users to each social media channel. The footer is fully responsive, and on smaller screen sizes it will retain the social media buttons and make the left-side text disappear, positioning the former to the center of the screen.<br /><br />
 
-    <details><summary><b>Footer</b></summary>
-
     ![Footer](assets/readme-img/footer.png)
-    </details><br />
+
+- #### Visit Page
 
 
 
