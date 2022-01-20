@@ -309,11 +309,15 @@ input[type="email"] {
 
 .container {
     position: relative;
-    min-width: 100vw;
 }
 
-#bg-color {
-    background-color: #990000;
+.container img {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+
+#bg-image {
+    background: url("../images/gadgets.jpg") fixed center center;
 }
 
 #top-image {
