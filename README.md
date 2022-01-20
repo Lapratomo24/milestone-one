@@ -2,7 +2,7 @@
 
 Welcome to GameHub!
 
-The GameHub is a gaming venue website, with which the owners intend to attract members of the gaming community and them to come visit a brand new this brand new gaming venue located in central Berlin and try their hands on the latest gaming apparatus available on site. Gamers can come alone or bring up to 4 friends to the site to enjoy some fun time together.
+The GameHub is a gaming venue website, with which the owners intend to attract members of the gaming community and them to come visit a brand new this brand new gaming venue located in central Berlin and try their hands on the latest gaming apparatus available on site. Gamers can come alone or bring up to four friends to the site to enjoy some fun time together.
 
 The website showcases the available types of gaming activities on both the homepage and gallery page. It also informs interested visitors of the business' opening times, prices, guidelines during the pandemic, and directions. On the contact page, one can also use the contact form to contact GameHub, whether it be for general inquiries or reservation purposes.
 
@@ -36,11 +36,15 @@ The website showcases the available types of gaming activities on both the homep
 - #### Imagery
     - The image used for the hero image is of a game controller, which should give a good idea of what the site might be about for users who visit it for the first time. Other images used throughout the website represent the imaginary business well, with gaming apparatus and activities that can raise users' interest to come and visit the GameHub venue.
 
+------
+
 ## Structure
 
-The website consists of four pages beginning with the default homepage. On all four pages, users can see the top navigation bar with the business logo on the left, which functions the same way as the first navigation item to the right of it, Home, and that is to take the users back to the homepage after visiting one of the other three pages. The homepage displays the hero image and headline text, the about section right after it, as well as a small gallery and visitor testimony just below it. The footer, which is displayed on all four pages, consists of copyright text on the left and social media icons on the right. The icons are external links which, when clicked, will open a new tab and redirect users to each social media channel represented by their respective icons.
+The website consists of four pages beginning with the default homepage. On all four pages, users can see the top navigation bar with the business logo on the left, which functions the same way as the first navigation item to the right of it, Home, which is to take the users back to the homepage after visiting one of the other three pages. The homepage displays the hero image and headline text, the about section right after it, as well as a small gallery and visitor testimony just below it. The footer, which is displayed on all four pages, consists of copyright text on the left and social media icons on the right. The icons are external links which, when clicked, will open a new tab and redirect users to each social media channel represented by their respective icons.
 
 The website is easily navigable and fully responsive across all screen sizes.
+
+------
 
 ## Features
 
@@ -50,13 +54,31 @@ The website is easily navigable and fully responsive across all screen sizes.
    
    ![Logo and navigation bar](assets/readme-img/header.png)
 
+   - Through the use of bootstrap, the navigation bar is designed to be responsive when users are on devices with different, smaller screen sizes such as tablets and smartphones. The navigation items will collapse into a toggler, which sometimes is called a burger button, on smaller screen sizes. The four navigation items should be visible in a vertical order when users click on the toggler, which then can be used to navigate the site in the same way as when viewing from a PC or laptop.
+
 - #### Hero Image
 
     - The hero image, coupled with an eye-catching headline text, introduces first-time visitors to GameHub. It conveys the message of what the website is about. It shows a gaming controller with text overlay 'made for gamers' to grab users' attention. Just below the headline text, users can see a responsive 'Visit Us' button which, when clicked, will redirect users to the business hours of GameHub. The hero image is set as fixed, meaning that when users scroll down the page, the image stays fixed to the top to give a prettier transition feel to it.
 
     ![Logo and navigation bar](assets/readme-img/hero-image.png)
 
-  
+- #### About Section
+
+    - The about section consists of two small sections. One is a brief description of The GameHub and the purpose of the establishment. Section two's purpose is to show that the business is partnered with well-known, imaginary establishments in the gaming community. This in turn will give a sense of trust to those who are interested to come and visit The GameHub.<br />
+
+    - Both the about section and partners section are fully responsive. The text below the headline will stack on top of each other on smaller screen sizes. Likewise, the four partner logos will also behave in a similar way.
+
+    <details><summary><b>About - Description</b></summary>
+
+    ![Description](assets/readme-img/about.png)
+    </details><br />
+
+    <details><summary><b>About - Partners</b></summary>
+
+    ![Partners](assets/readme-img/partners.png)
+    </details><br />
+
+- ####
 
 ### 
 
