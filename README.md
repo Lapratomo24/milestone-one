@@ -112,13 +112,19 @@ The website is easily navigable and fully responsive across all screen sizes.
 
     - The gallery page is the third page of the website. On this page, users are shown six images of different entertainment choices that can be found inside GameHub. Each image is accompanied by a title and a subtitle on either the bottom-left or bottom-right side. The white background is of gaming apparatus to give a good contrast to the images on the forefront. 
 
-    - The page is fully responsive. On screen sizes smaller than 950px, the subtitles will disappear leaving only the titles behind which then shift to the bottom-center of the images.
+    - The page is fully responsive. On screen sizes smaller than 950px wide, the subtitles will disappear leaving only the titles behind which then shift to the bottom-center of the images.
 
     ![Visit](assets/readme-img/gallery.png)
 
 ------
 
-- ####
+- #### Contact Us Page
+
+    - The contact us page is the fourth and final page of the website. This page only contains a contact form which is displayed on the left side to balance it out with the dark background with the retro console on the right side. The contact form consists of two fields for full name and email of user who wants to get in contact with GameHub, two radio buttons to pick from, and another field for the content of the message. It ends with a red send button which, when clicked after the form is filled out, will redirect user to the formdump link provided by codeinstitute.
+
+    - Similarly, the page is also responsive on other screen sizes. The form will be displayed in the center of the screen when viewed on screen sizes smaller than 600px wide.
+
+    ![Visit](assets/readme-img/contact-form.png)
 
 
 ### 
