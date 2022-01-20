@@ -106,11 +106,20 @@ The website is easily navigable and fully responsive across all screen sizes.
 
     ![Visit](assets/readme-img/visit.png)
 
+------
+
 - #### Gallery Page
 
-    - The gallery page 
+    - The gallery page is the third page of the website. On this page, users are shown 6 images of different entertainment choices that can be found inside GameHub. Each image is accompanied by a title and a subtitle on either the bottom-left or bottom-right side. The white background is of gaming apparatus to give a good contrast to the images on the forefront. 
 
-    
+    - The page is fully responsive. On screen sizes smaller than 950px, the subtitles will disappear leaving only the titles behind which then shift to the bottom-center of the images.
+
+    ![Visit](assets/readme-img/gallery.png)
+
+------
+
+
+
 
 ### 
 
