@@ -260,8 +260,9 @@ footer h5 {
 .form-container {
     background-color: #e6e6e6;
     margin: 0 20px 0 40px;
-    padding: 8px;
+    padding: 20px;
     max-width: 500px;
+    border-radius: 2px;
 }
 
 .form-container > h3 {
@@ -278,20 +279,19 @@ input[type="email"] {
     border-radius: 2px;
 }
 
-.btn {
+.send-btn {
     background-color: #990000;
     color: #e6e6e6;
-    border-radius: 2px;
     padding: 15px 32px 15px 32px;
-    opacity: 0.9;
+    border-radius: 2px;
     width: 100%;
     cursor: pointer;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
-.btn:hover {
-    opacity: 1;
-    color: #e6e6e6;
+.send-btn:hover {
+    background-color: #990000;
+    opacity: 0.9;
 }
 
 .block-label {
