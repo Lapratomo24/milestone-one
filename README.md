@@ -168,8 +168,33 @@ The website is easily navigable and fully responsive across all screen sizes.
 
 ### Code Validation
 
+The GameHub has been officially validated through W3C validator for both HTML and CSS codes.
 
+- #### HTML Validation
 
+<details><summary><b>HTML-Homepage</b></summary>
+
+![HTML-Homepage](assets/readme-img/w3c-homepage.png)
+</details><br />
+
+<details><summary><b>HTML-Visit</b></summary>
+
+![HTML-Visit](assets/readme-img/w3c-visit.png)
+</details><br />
+
+<details><summary><b>HTML-Gallery</b></summary>
+
+![HTML-Gallery](assets/readme-img/w3c-gallery.png)
+</details><br />
+
+<details><summary><b>HTML-Contact</b></summary>
+
+![HTML-Contact](assets/readme-img/w3c-contact.png)
+</details><br />
+
+- #### CSS Validation
+
+![Visit](assets/readme-img/w3c-css.png)
 
 A blue button should appear to click: _Make Public_,
 
