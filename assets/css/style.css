@@ -37,6 +37,11 @@ body {
     padding: 8px;
 }
 
+#navbar-menus a.active:hover {
+    color: #990000;
+    opacity: 1;
+}
+
 #navbar-menus a:hover {
     color: #fafafa;
     opacity: 0.8;

@@ -197,6 +197,17 @@ The GameHub has been officially validated through W3C validator for both HTML an
 
 ![CSS-validation](assets/readme-img/w3c-css.png)
 
+### Further Testing
+
+[Webaim](https://wave.webaim.org/), [Developer Tools](https://developer.chrome.com/docs/devtools/), and [Lighthouse](https://developers.google.com/web/tools/lighthouse) were used to test the performance, accessibility, best practices, and Search Engine Optimization purposes. The former was used primarily for debugging as well as to view the responsiveness of The GameHub on various tablets and smarphones. Moreover, The GameHub site also runs properly on not only Google Chrome, but also Mozilla Firefox, Microsoft Edge, and Safari, making it compatible on all major browsers.
+
+### Bugs Encountered
+
+- Gallery page images were supposed to stretch to the sides thus making them cover the screen. Was not able yet to figure out how to implement that hence the use of the background. In the future may resort to do complete overhaul of gallery structure.
+- The carousel located at the bottom of the homepage is unsatisfying. Did not exactly like using bootstrap library for it but restrained myself from simply using JavaScript code from W3Schools as I have had no experience with and comprehension of it just yet.
+- Initially used absolute positioning for both hero image text and button, as well as contact form on the contact page. It was not the best choice for responsiveness purposes, so I had to abandon it.
+- Footer may be fixed in the future to include copyright text being displayed on smaller screen sizes. 
+
 
 
 
