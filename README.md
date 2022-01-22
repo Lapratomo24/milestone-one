@@ -54,117 +54,118 @@ The website is easily navigable and fully responsive across all screen sizes.
 
 ### Hero Image
 
-    The hero image, coupled with an eye-catching headline text, introduces first-time visitors to GameHub. It conveys the message of what the website is about. It shows a gaming controller with text overlay 'made for gamers' to grab users' attention. Just below the headline text, users can see a responsive 'Visit Us' button which, when clicked, will redirect users to the business hours of GameHub. The hero image is set as fixed, meaning that when users scroll down the page, the image stays fixed to the top to give a prettier transition feel to it.
+The hero image, coupled with an eye-catching headline text, introduces first-time visitors to GameHub. It conveys the message of what the website is about. It shows a gaming controller with text overlay 'made for gamers' to grab users' attention. Just below the headline text, users can see a responsive 'Visit Us' button which, when clicked, will redirect users to the business hours of GameHub. The hero image is set as fixed, meaning that when users scroll down the page, the image stays fixed to the top to give a prettier transition feel to it.
 
-    ![Logo and navigation bar](assets/readme-img/hero-image.png)
+![Logo and navigation bar](assets/readme-img/hero-image.png)
 
 ### About Section
 
-    - The about section consists of two small sections. One is a brief description of The GameHub and the purpose of the establishment preceded by a call-to-action headline text in red. Section two's purpose is to show that the business is partnered with well-known, imaginary establishments in the gaming community. This in turn will give a sense of trust to those who are interested to come and visit The GameHub.
+- The about section consists of two small sections. One is a brief description of The GameHub and the purpose of the establishment preceded by a call-to-action headline text in red. Section two's purpose is to show that the business is partnered with well-known, imaginary establishments in the gaming community. This in turn will give a sense of trust to those who are interested to come and visit The GameHub.
 
-    - Both the about section and partners section are fully responsive. The text below the headline will stack on top of each other on smaller screen sizes. Likewise, the four partner logos will also behave in a similar way.
+- Both the about section and partners section are fully responsive. The text below the headline will stack on top of each other on smaller screen sizes. Likewise, the four partner logos will also behave in a similar way.
 
-    <details><summary><b>About - Description</b></summary>
+<details><summary><b>About - Description</b></summary>
 
-    ![Description](assets/readme-img/about.png)
-    </details><br />
+![Description](assets/readme-img/about.png)
+</details><br />
 
-    <details><summary><b>About - Partners</b></summary>
+<details><summary><b>About - Partners</b></summary>
 
-    ![Partners](assets/readme-img/partners.png)
-    </details><br />
+![Partners](assets/readme-img/partners.png)
+</details><br />
 
 ### Small Gallery Section
 
-    The small gallery section on the homepage showcases six images of different types of gaming visitors can enjoy spending time on within GameHub, each accompanied by a short text to describe said activities. On smaller screen sizes between 600 to 950px wide, the three-columned images will turn to two-columned images for responsive purposes. On even smaller screen sizes, the images will stack on top of each other and have a full-sized width based on viewport.
+The small gallery section on the homepage showcases six images of different types of gaming visitors can enjoy spending time on within GameHub, each accompanied by a short text to describe said activities. On smaller screen sizes between 600 to 950px wide, the three-columned images will turn to two-columned images for responsive purposes. On even smaller screen sizes, the images will stack on top of each other and have a full-sized width based on viewport.
 
-    <details><summary><b>Small Gallery</b></summary>
+<details><summary><b>Small Gallery</b></summary>
 
-    ![Small Gallery](assets/readme-img/small-gallery.png)
-    </details><br />
+![Small Gallery](assets/readme-img/small-gallery.png)
+</details><br />
 
 ### Testimony Section
 
-    The tesimony section is another way to convince first-time visitors that others have been to The GameHub and had a good experience spending time on playing games at the establishment. The carousel is added via a bootstrap library, and showcases a testimony from two different imaginary people each. It has a background of four virtual reality gamers as a nice and colorful backdrop behind the texts. This section is also responsive based on different screen sizes.
+The tesimony section is another way to convince first-time visitors that others have been to The GameHub and had a good experience spending time on playing games at the establishment. The carousel is added via a bootstrap library, and showcases a testimony from two different imaginary people each. It has a background of four virtual reality gamers as a nice and colorful backdrop behind the texts. This section is also responsive based on different screen sizes.
 
-    <details><summary><b>Testimony</b></summary>
+<details><summary><b>Testimony</b></summary>
 
-    ![Testimony](assets/readme-img/testimony.png)
-    </details><br />
+![Testimony](assets/readme-img/testimony.png)
+</details><br />
 
 ### Footer
 
-    The footer is located at the bottom of the page with the same red background as the top navigation bar. On the left side is a simple copyright text, notifying users that the site belongs to GameHub. And on the right side are the externally-linked social media buttons, which when clicked, open a new tab to redirect users to each social media channel. The footer is fully responsive, and on smaller screen sizes it will retain the social media buttons and make the left-side text disappear, positioning the former to the center of the screen.
+The footer is located at the bottom of the page with the same red background as the top navigation bar. On the left side is a simple copyright text, notifying users that the site belongs to GameHub. And on the right side are the externally-linked social media buttons, which when clicked, open a new tab to redirect users to each social media channel. The footer is fully responsive, and on smaller screen sizes it will retain the social media buttons and make the left-side text disappear, positioning the former to the center of the screen.
 
-    ![Footer](assets/readme-img/footer.png)
+![Footer](assets/readme-img/footer.png)
 
 ### Visit Page
 
-    - The first separate page to be introduced is the visit page. This page can be navigated to using either the visit button on the navigation bar or the call-to-action visit us button in front of the hero image on the homepage. This page essentially informs would-be visitors of GameHub's business hours, or in other words the days and times when visitors are able to visit the establishment. Next, visitors can see the prices set for different kinds of entertainment within GameHub. And due to the pandemic, there are also guidelines to follow when visiting GameHub. And just below it, the map shows the exact location of the gaming venue, which in this example is located in Checkpoint Charlie in Berlin, Germany.
+- The first separate page to be introduced is the visit page. This page can be navigated to using either the visit button on the navigation bar or the call-to-action visit us button in front of the hero image on the homepage. This page essentially informs would-be visitors of GameHub's business hours, or in other words the days and times when visitors are able to visit the establishment. Next, visitors can see the prices set for different kinds of entertainment within GameHub. And due to the pandemic, there are also guidelines to follow when visiting GameHub. And just below it, the map shows the exact location of the gaming venue, which in this example is located in Checkpoint Charlie in Berlin, Germany.
 
-    - The page is fully responsive. The texts and the map will shift to the center when viewed on smaller screen sizes.
+- The page is fully responsive. The texts and the map will shift to the center when viewed on smaller screen sizes.
 
-    ![Visit](assets/readme-img/visit.png)
+![Visit](assets/readme-img/visit.png)
 
 ------
 
 ### Gallery Page
 
-    - The gallery page is the third page of the website. On this page, users are shown six images of different entertainment choices that can be found inside GameHub. Each image is accompanied by a title and a subtitle on either the bottom-left or bottom-right side. The white background is of gaming apparatus to give a good contrast to the images on the forefront. 
+- The gallery page is the third page of the website. On this page, users are shown six images of different entertainment choices that can be found inside GameHub. Each image is accompanied by a title and a subtitle on either the bottom-left or bottom-right side. The white background is of gaming apparatus to give a good contrast to the images on the forefront. 
 
-    - The page is fully responsive. On screen sizes smaller than 950px wide, the subtitles will disappear leaving only the titles behind which then shift to the bottom-center of the images.
+- The page is fully responsive. On screen sizes smaller than 950px wide, the subtitles will disappear leaving only the titles behind which then shift to the bottom-center of the images.
 
-    ![Visit](assets/readme-img/gallery.png)
+![Gallery](assets/readme-img/gallery.png)
 
 ------
 
 ### Contact Us Page
 
-    - The contact us page is the fourth and final page of the website. This page only contains a contact form which is displayed on the left side to balance it out with the dark background with the retro console on the right side. The contact form consists of two fields for full name and email of user who wants to get in contact with GameHub, two radio buttons to pick from, and another field for the content of the message. It ends with a red send button which, when clicked after the form is filled out, will redirect user to the formdump link provided by codeinstitute.
+- The contact us page is the fourth and final page of the website. This page only contains a contact form which is displayed on the left side to balance it out with the dark background with the retro console on the right side. The contact form consists of two fields for full name and email of user who wants to get in contact with GameHub, two radio buttons to pick from, and another field for the content of the message. It ends with a red send button which, when clicked after the form is filled out, will redirect user to the formdump link provided by codeinstitute.
 
-    - Similarly, the page is also responsive on other screen sizes. The form will be displayed in the center of the screen when viewed on screen sizes smaller than 600px wide.
+- Similarly, the page is also responsive on other screen sizes. The form will be displayed in the center of the screen when viewed on screen sizes smaller than 600px wide.
 
-    ![Visit](assets/readme-img/contact-form.png)
+![Contact](assets/readme-img/contact-form.png)
 
 ### To-do Features
 
-    - A more comprehensive list of prices and reservation options.
-    - A more dynamic gallery page in the form of carousel so that users do not need to scroll down and instead use left and right buttons.
+- A more comprehensive list of prices and reservation options.
+- A more dynamic gallery page in the form of carousel so that users do not need to scroll down and instead use left and right buttons.
 
 ## Technologies
 
-    - [HTML5](https://en.wikipedia.org/wiki/HTML5) - Provides the content and structure of The GameHub site.
-    - [CSS3](https://en.wikipedia.org/wiki/CSS) - Provides the styling for The GameHub site.
-    - [Bootstrap](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)) Provides responsiveness and more styling for The GameHub site.
-    - [Gitpod](https://gitpod.io/) - An integrated development environment to create and develop projects from scratch.
-    - [Github](https://github.com/) - Provides storage for codes and acts as a host to deploy live projects.
-    - [FontAwesome](https://fontawesome.com/) - Provides icons for The GameHub.
-    - [GoogleFonts](https://fonts.google.com/) - Provides chosen fonts for The GameHub.
-    - [Canva](https://www.canva.com/) - Used to create The GameHub logo and partners' icons.
-    - [Compressjpeg](https://compressjpeg.com/) - Used to compress the size of the stock images.
-    - [Pexels](https://compressjpeg.com/) - Provides all images used on The GameHub.
-    - [AmIResponsive](http://ami.responsivedesign.is/) - Generates website mockup to check The GameHub's responsiveness.
-    - [ChromeDevTools](https://developer.chrome.com/docs/devtools/) - Used for debugging purposes.
-    - [W3C-HTML](https://validator.w3.org/#validate_by_input) - HTML validation service.
-    - [W3C-CSS](https://jigsaw.w3.org/css-validator/#validate_by_input) - CSS validation service.
+- [HTML5](https://en.wikipedia.org/wiki/HTML5) - Provides the content and structure of The GameHub site.
+- [CSS3](https://en.wikipedia.org/wiki/CSS) - Provides the styling for The GameHub site.
+- [Bootstrap](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)) Provides responsiveness and more styling for The GameHub site.
+- [Gitpod](https://gitpod.io/) - An integrated development environment to create and develop projects from scratch.
+- [Github](https://github.com/) - Provides storage for codes and acts as a host to deploy live projects.
+- [FontAwesome](https://fontawesome.com/) - Provides icons for The GameHub.
+- [GoogleFonts](https://fonts.google.com/) - Provides chosen fonts for The GameHub.
+- [Canva](https://www.canva.com/) - Used to create The GameHub logo and partners' icons.
+- [Compressjpeg](https://compressjpeg.com/) - Used to compress the size of the stock images.
+- [Pexels](https://compressjpeg.com/) - Provides all images used on The GameHub.
+- [AmIResponsive](http://ami.responsivedesign.is/) - Generates website mockup to check The GameHub's responsiveness.
+- [ChromeDevTools](https://developer.chrome.com/docs/devtools/) - Used for debugging purposes.
+- [W3C-HTML](https://validator.w3.org/#validate_by_input) - HTML validation service.
+- [W3C-CSS](https://jigsaw.w3.org/css-validator/#validate_by_input) - CSS validation service.
+- [Webformatter](https://webformatter.com/) - Used for proper code indentation.
 
 ## Testing
 
 ### Manual Testing
 
- - First and foremost, verified that all pages are fully responsive on smaller screen sizes.
- - Verified that on smaller screen sizes all navigation items will collapse and turn into a toggler, which when clicked, will display said navigation items vertically.
- - Verified that on smaller screen sizes the footer will shift the social media icons to the center of the page.
- - Verified that there are no spelling mistakes on all pages.
- - Verified that the hero image is not pixelated.
- - Verified that the GameHub logo is clickable and does navigate to homepage when clicked.
- - Verified that all navigation items are clickable, highlighted on hover, and do navigate to their respective pages when clicked.
- - Verified the visit us button in front of the hero image is clickcable, highlighted on hover, and does navigate to the visit page when clicked.
- - Verified that externally-linked social media buttons are clickable, highlighted on hover, and do redirect to their respective social media channels in a new tab when clicked.
- - Verified that left and right arrows on the testimony section work as intended when clicked.
- - Verified that the embedded google map on the visit page works and fully responsive.
- - Verified that the gallery images on the gallery page is fully responsive.
- - Verified that the contact form works as intended, prompts the users to fill out the fields correctly, and redirects to formdump link after clicking the send button.
+- Verified that all pages are fully responsive on smaller screen sizes.
+- Verified that on smaller screen sizes all navigation items will collapse and turn into a toggler, which when clicked, will display said navigation items vertically.
+- Verified that on smaller screen sizes the footer will shift the social media icons to the center of the page.
+- Verified that there are no spelling mistakes on all pages.
+- Verified that the hero image is not pixelated.
+- Verified that the GameHub logo is clickable and does navigate to homepage when clicked.
+- Verified that all navigation items are clickable, highlighted on hover, and do navigate to their respective pages when clicked.
+- Verified the visit us button in front of the hero image is clickcable, highlighted on hover, and does navigate to the visit page when clicked.
+- Verified that externally-linked social media buttons are clickable, highlighted on hover, and do redirect to their respective social media channels in a new tab when clicked.
+- Verified that left and right arrows on the testimony section work as intended when clicked.
+- Verified that the embedded google map on the visit page works and fully responsive.
+- Verified that the gallery images on the gallery page is fully responsive.
+- Verified that the contact form works as intended, prompts the users to fill out the fields correctly, and redirects to formdump link after clicking the send button.
 
 ### Code Validation
 
@@ -194,7 +195,10 @@ The GameHub has been officially validated through W3C validator for both HTML an
 
 - #### CSS Validation
 
-![Visit](assets/readme-img/w3c-css.png)
+![CSS-validation](assets/readme-img/w3c-css.png)
+
+
+
 
 A blue button should appear to click: _Make Public_,
 

@@ -16,28 +16,28 @@ body {
 
 /* Logo and Navigation */
 
-#navbarNav {
+#navbar-menus {
     letter-spacing: 2px;
 }
 
-#navbarNav li {
+#navbar-menus li {
     list-style: none;
     margin-right: 30px;
 }
 
-#navbarNav a {
+#navbar-menus a {
     text-decoration: none;
     color: #fafafa;
 }
 
-#navbarNav a.active {
+#navbar-menus a.active {
     background-color: #fafafa;
     border-radius: 5px;
     color: #101010;
     padding: 8px;
 }
 
-#navbarNav a:hover {
+#navbar-menus a:hover {
     color: #fafafa;
     opacity: 0.8;
 }
@@ -104,12 +104,12 @@ body {
     font-size: 200%;
 }
 
-.flexbox {
+.column {
     display: flex;
     justify-content: center;
 }
 
-.flexbox > div {
+.column > div {
     width: 600px;
     margin: 20px;
     text-align: center;
@@ -137,16 +137,16 @@ body {
 
 /* Inside Gamehub section */
 
-#entertainment {
+#images-headline {
     margin: 0 50px;
 }
 
-#entertainment > h3 {
+#images-headline > h3 {
     text-align: center;
     padding: 50px 0 40px 0;
 }
 
-.responsive {
+.responsive-gallery {
     padding: 5px 5px;
     float: left;
     width: 33.33%;
@@ -161,7 +161,7 @@ body {
     height: auto;
 }
 
-.desc {
+.description {
     text-align: center;
     padding: 10px;
 }
@@ -441,7 +441,7 @@ input[type="email"] {
 }
 
 @media screen and (max-width: 950px) {
-    .responsive {
+    .responsive-gallery {
         padding: 5px 5px;
         float: left;
         width: 50%;
@@ -451,7 +451,7 @@ input[type="email"] {
         flex-direction: column;
         padding: 50px 0;
     }
-    .flexbox {
+    .column {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -506,7 +506,7 @@ input[type="email"] {
 }
 
 @media screen and (max-width: 600px) {
-    .responsive {
+    .responsive-gallery {
         width: 100%;
     }
     #headline {
