@@ -72,7 +72,7 @@ The hero image, coupled with an eye-catching headline text, introduces first-tim
 <details><summary><b>About - Partners</b></summary>
 
 ![Partners](assets/readme-img/partners.png)
-</details><br />
+</details>
 
 ### Small Gallery Section
 
@@ -81,7 +81,7 @@ The small gallery section on the homepage showcases six images of different type
 <details><summary><b>Small Gallery</b></summary>
 
 ![Small Gallery](assets/readme-img/small-gallery.png)
-</details><br />
+</details>
 
 ### Testimony Section
 
@@ -90,7 +90,7 @@ The tesimony section is another way to convince first-time visitors that others 
 <details><summary><b>Testimony</b></summary>
 
 ![Testimony](assets/readme-img/testimony.png)
-</details><br />
+</details>
 
 ### Footer
 
@@ -106,8 +106,6 @@ The footer is located at the bottom of the page with the same red background as 
 
 ![Visit](assets/readme-img/visit.png)
 
-------
-
 ### Gallery Page
 
 - The gallery page is the third page of the website. On this page, users are shown six images of different entertainment choices that can be found inside GameHub. Each image is accompanied by a title and a subtitle on either the bottom-left or bottom-right side. The white background is of gaming apparatus to give a good contrast to the images on the forefront. 
@@ -115,8 +113,6 @@ The footer is located at the bottom of the page with the same red background as 
 - The page is fully responsive. On screen sizes smaller than 950px wide, the subtitles will disappear leaving only the titles behind which then shift to the bottom-center of the images.
 
 ![Gallery](assets/readme-img/gallery.png)
-
-------
 
 ### Contact Us Page
 
@@ -243,7 +239,7 @@ Forking is used to create a copy of a repository, where it can be viewed and edi
 ### Code
 
 - The website [W3Schools](https://www.w3schools.com/) was used as a guidance on how to create and position elements found on the website, from which the bootstrap library also originates from.
-- Code Institute' own Love Running and Coders Coffeehouse projects were also used as a reference.
+- Code Institute's own Love Running and Coders Coffeehouse projects were also used as a reference.
 - The website [Getcssscan](https://getcssscan.com/css-box-shadow-examples) was used for elements shadows.
 
 ### Content

@@ -103,10 +103,16 @@ body {
     background-color: rgba(126, 127, 142, 0.2);
 }
 
-.about h3 {
+.subheadline {
     text-align: center;
-    padding: 65px 0 0 0;
+    padding: 65px 0 30px 0;
     font-size: 200%;
+    font-family: "Bungee Shade", cursive;
+    color: #990000;
+}
+
+#first-subheadline {
+    margin-bottom: 20px;
 }
 
 .column {
@@ -127,20 +133,14 @@ body {
 
 /* Trust subsection and logos */
 
-.partners {
-    text-align: center;
-    font-size: 200%;
-}
-
 .flex-container {
-    margin-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding: 50px 0;
 }
 
-/* Inside Gamehub section */
+/* Small gallery section */
 
 .images-headline {
     margin: 0 50px;
@@ -250,6 +250,89 @@ footer h5 {
     opacity: 0.8;
 }
 
+/* Visit page */
+
+.section-container {
+    display: flex;
+    text-align: center;
+    padding: 40px;
+}
+
+.visit-headline {
+    padding-top: 200px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 250%;
+    font-family: "Bungee Shade", cursive;
+    color: #990000;
+}
+
+.flex-item-left {
+    flex: 10%;
+}
+
+.backdrop {
+    color: rgba(16, 16, 16, 0.8);
+    text-shadow: 2px 2px 4px #fafafa;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.flex-item-right {
+    flex: 50%;
+    text-align: left;
+    font-size: 140%;
+    margin-right: 40px;
+}
+
+.prices {
+    color: #990000;
+}
+
+.googlemap {
+    width: 100%;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+/* Gallery page */
+
+.container {
+    position: relative;
+}
+
+.container img {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+
+#bg-image {
+    background: url("../images/gadgets.jpg") fixed center center;
+}
+
+#top-image {
+    margin-top: 75px;
+}
+
+.text-block {
+    position: absolute;
+    background-color: rgba(250, 250, 250, 0.9);
+    color: #101010;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 12px;
+}
+
+.text-block-left {
+    bottom: 20px;
+    left: 30px;
+}
+
+.text-block-right {
+    bottom: 20px;
+    right: 30px;
+    text-align: right;
+}
+
 /* Contact page */
 
 .contact-section {
@@ -308,89 +391,6 @@ input[type="email"] {
     width: 100%;
     padding: 0.5rem;
     border-radius: 2px;
-}
-
-/* Gallery page */
-
-.container {
-    position: relative;
-}
-
-.container img {
-    width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
-}
-
-#bg-image {
-    background: url("../images/gadgets.jpg") fixed center center;
-}
-
-#top-image {
-    margin-top: 75px;
-}
-
-.text-block {
-    position: absolute;
-    background-color: rgba(250, 250, 250, 0.9);
-    color: #101010;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 12px;
-}
-
-.text-block-left {
-    bottom: 20px;
-    left: 30px;
-}
-
-.text-block-right {
-    bottom: 20px;
-    right: 30px;
-    text-align: right;
-}
-
-/* Visit Us page */
-
-.section-container {
-    display: flex;
-    text-align: center;
-    padding: 40px;
-}
-
-.visit-headline {
-    padding-top: 200px;
-    padding-bottom: 50px;
-    text-align: center;
-    font-size: 250%;
-    font-family: 'Bungee Shade', cursive;
-    color: #990000;
-}
-
-.flex-item-left {
-    flex: 10%;
-}
-
-.backdrop {
-    color: rgba(16, 16, 16, 0.8);
-    text-shadow: 2px 2px 4px #fafafa;
-    font-size: xx-large;
-    text-align: center;
-}
-
-.flex-item-right {
-    flex: 50%;
-    text-align: left;
-    font-size: 140%;
-    margin-right: 40px;
-}
-
-.prices {
-    color: #990000;
-}
-
-.googlemap {
-    width: 100%;
-    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
 /* Responsive layout for large to medium screen sizes from 1200px wide and down */
@@ -463,9 +463,9 @@ input[type="email"] {
         margin: 0 20px;
     }
     #text-left {
-        margin: 0 20px;
+        margin: 10px 20px;
     }
-    .about h3 {
+    .subheadline {
         font-size: 150%;
     }
     .footer-left {
