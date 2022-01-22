@@ -207,7 +207,36 @@ The GameHub has been officially validated through W3C validator for both HTML an
 - The carousel located at the bottom of the homepage is unsatisfying. Did not exactly like using bootstrap library for it but restrained myself from simply using JavaScript code from W3Schools as I have had no experience with and comprehension of it just yet.
 - Initially used absolute positioning for both hero image text and button, as well as contact form on the contact page. It was not the best choice for responsiveness purposes, so I had to abandon it.
 - Footer may be fixed in the future to include copyright text being displayed on smaller screen sizes. 
+- Webaim testing shows two errors in the form of 'empty buttons' for left and right buttons on the carousel section of the homepage. Will research further for future projects, and may use JavaScript instead of bootstrap library for a different outcome.
 
+## Deployment
+
+### GitHub Pages
+
+The GameHub as the first milestone project was deployed to GitHub pages with the following steps:
+
+1. Navigate to the 'Settings' tab in the GitHub repository.
+2. Navigate to the Pages tab on the left sidebar and click it.
+3. Select 'main branch' from the dropdown menu.
+4. Once selected, the page should automatically refresh with a detailed ribbon display to indicate successful deployment.
+
+### Forking the Repository
+
+Forking is used to create a copy of a repository, where it can be viewed and edited without affecting the original repository. This can be done through the following steps:
+
+1. Locate the repository.
+2. Locate the 'Fork' button on the right side of the page. Clicking the button results in the creation of a copy of the repository.
+3. The copy is now found in your GitHub account.
+
+### Cloning the Repository
+
+1. Locate the repository.
+2. Click the 'Code' button to the left of the green 'Gitpod' button.
+3. Copy the link under HTTPS by clicking the clipboard icon.
+4. Open Git Bash.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone and then paste the copied link form GitHub.
+7. Pressing 'Enter' will result in the creation of the local clone.
 
 
 
