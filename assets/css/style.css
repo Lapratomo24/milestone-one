@@ -52,7 +52,7 @@ body {
 
 /* Hero image and headline */
 
-#hero-image {
+.hero-image {
     height: 100vh;
     background: url("../images/hero-image.jpg") fixed center center;
     display: flex;
@@ -61,7 +61,7 @@ body {
     justify-content: center;
 }
 
-#headline {
+.headline {
     font-family: "Bungee Shade", cursive;
     font-size: 4rem;
     letter-spacing: 2px;
@@ -73,7 +73,7 @@ body {
     color: #fafafa;
 }
 
-#visit-us {
+#visit-btn {
     background-color: #990000;
     border: 1px solid #fafafa;
     border-radius: 5px;
@@ -87,18 +87,18 @@ body {
     cursor: pointer;
 }
 
-#visit-us:hover {
+#visit-btn:hover {
     background-color: #fafafa;
     color: #990000;
 }
 
 /* About section */
 
-#about {
+.about {
     background-color: rgba(126, 127, 142, 0.2);
 }
 
-#about h3 {
+.about h3 {
     text-align: center;
     padding: 65px 0 0 0;
     font-size: 200%;
@@ -122,7 +122,7 @@ body {
 
 /* Trust subsection and logos */
 
-#partners {
+.partners {
     text-align: center;
     font-size: 200%;
 }
@@ -137,11 +137,11 @@ body {
 
 /* Inside Gamehub section */
 
-#images-headline {
+.images-headline {
     margin: 0 50px;
 }
 
-#images-headline > h3 {
+.images-headline > h3 {
     text-align: center;
     padding: 50px 0 40px 0;
 }
@@ -175,7 +175,7 @@ body {
 
 /* Testimony carousel section */
 
-#testimony {
+.testimony {
     background: url(../images/testimony-pic.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -183,7 +183,7 @@ body {
     height: 350px;
 }
 
-#testimony > h3 {
+.testimony > h3 {
     text-align: center;
     padding: 80px 0 40px 0;
     font-size: 250%;
@@ -214,18 +214,18 @@ footer h5 {
     font-size: medium;
 }
 
-#footer-left {
+.footer-left {
     float: left;
     margin-left: 2%;
     color: #fafafa;
 }
 
-#footer-right {
+.footer-right {
     text-align: right;
 }
 
-#footer-left,
-#footer-right {
+.footer-left,
+.footer-right {
     padding-top: 30px;
     padding-bottom: 10px;
 }
@@ -352,11 +352,13 @@ input[type="email"] {
     padding: 40px;
 }
 
-#visit-headline {
+.visit-headline {
     padding-top: 200px;
     padding-bottom: 50px;
     text-align: center;
-    font-size: 300%;
+    font-size: 250%;
+    font-family: 'Bungee Shade', cursive;
+    color: #990000;
 }
 
 .flex-item-left {
@@ -389,15 +391,10 @@ input[type="email"] {
 /* Responsive layout for large to medium screen sizes from 1200px wide and down */
 
 @media screen and (max-width: 1200px) {
-    #visit-headline {
-        margin-top: 150px;
-        text-align: center;
-        font-size: 220%;
-    }
     .flex-item-right {
         font-size: 120%;
     }
-    #testimony {
+    .testimony {
         width: 100%;
         height: auto;
     }
@@ -428,10 +425,11 @@ input[type="email"] {
         justify-content: center;
         padding: 30px 0;
     }
-    #visit-headline {
+    .visit-headline {
         padding-top: 40px;
         padding-bottom: 20px;
-        font-size: 250%;
+        margin-top: 150px;
+        padding-top: 200px;
     }
     .flex-item-right {
         padding-top: 20px;
@@ -462,13 +460,13 @@ input[type="email"] {
     #text-left {
         margin: 0 20px;
     }
-    #about h3 {
+    .about h3 {
         font-size: 150%;
     }
-    #footer-left {
+    .footer-left {
         display: none;
     }
-    #footer-right {
+    .footer-right {
         text-align: center;
     }
     .flex-container {
@@ -480,7 +478,7 @@ input[type="email"] {
         margin: 0 40px;
         text-align: center;
     }
-    #headline {
+    .headline {
         font-size: 2.5rem;
     }
     #visit-us {
@@ -509,7 +507,7 @@ input[type="email"] {
     .responsive-gallery {
         width: 100%;
     }
-    #headline {
+    .headline {
         font-size: 2rem;
     }
     .navbar-brand {
